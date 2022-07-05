@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+
+  <castshadow/>
+
+  <group>
+    <variant frequency="1" name="pike_1">
+      <mesh>props/pike_a.dae</mesh>
+      <textures>
+        <texture file="props/mod_wep_tex.png" name="baseTex"/>
+      </textures>	  
+    </variant>	
+  </group>
+  
+  <material>player_trans.xml</material> 
+
+</actor>

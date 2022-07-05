@@ -1,0 +1,64 @@
+{
+	"Code": "west",
+	"Culture": "west",
+	"Name": "Western Europeans - XII",
+	"Emblem": "session/portraits/emblems/emblem_west.png",
+	"History": "",
+	"Music": [
+		{
+			"File": "Celtic_Pride.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cisalpine_Gaul.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Water's_Edge.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sunrise.ogg",
+			"Type": "peace"
+		}
+	],
+	"WallSets": [
+		"structures/west/wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/west/civil_centre"
+		},
+		{
+			"Template": "units/west/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/west/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/west/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/west/cavalry_spearman_b"
+		}
+	],
+	"AINames": [
+		"Baron",
+		"Bishop",
+		"Count",
+		"Earl",
+		"Marshal",
+		"Duke"
+	],
+	"SkirmishReplacements": {
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

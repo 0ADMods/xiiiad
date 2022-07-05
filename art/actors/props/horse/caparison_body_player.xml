@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/horse/caparison_body.dae</mesh>
+      <textures>
+        <texture file="props/horse/caparison_norm.png" name="normTex"/>
+        <texture file="props/horse/caparison_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Caparison-Player-Light">
+      <textures>
+        <texture file="props/horse/caparison_basic_player_light.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Caparison-Player-Dark">
+      <textures>
+        <texture file="props/horse/caparison_basic_player_dark.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="quadraped/base_horse_trot.xml" frequency="1" name="Horse-Trot"/>
+    <variant file="quadraped/base_horse_death.xml"/>
+    <variant file="quadraped/base_horse_run.xml"/>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

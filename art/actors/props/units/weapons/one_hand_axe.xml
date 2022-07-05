@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="one_hand_axe">
+      <mesh>props/weapon/one_hand_axe.dae</mesh>
+      <textures>
+        <texture file="props/weapon/one_hand_axe.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
