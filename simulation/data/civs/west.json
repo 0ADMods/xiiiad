@@ -1,9 +1,6 @@
 {
 	"Code": "west",
 	"Culture": "west",
-	"Name": "Western Europeans - XII",
-	"Emblem": "session/portraits/emblems/emblem_west.png",
-	"History": "",
 	"Music": [
 		{
 			"File": "Celtic_Pride.ogg",
@@ -26,6 +23,7 @@
 			"Type": "peace"
 		}
 	],
+	"CivBonuses": [],
 	"WallSets": [
 		"structures/west/wallset_stone"
 	],

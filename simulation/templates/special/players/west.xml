@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>west</Civ>
+    <GenericName>Western Europeans</GenericName>
+    <History>13th century Western Europeans.</History>
+    <Icon>emblems/emblem_west.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+    </Formations>
+  </Player>
+</Entity>
