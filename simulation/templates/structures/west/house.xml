@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Identity>
+    <Civ>west</Civ>
+    <SpecificName>Western Village Dwelling</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/western/house.xml</Actor>
+  </VisualActor>
+</Entity>
