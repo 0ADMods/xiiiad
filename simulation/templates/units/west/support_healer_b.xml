@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>west</Civ>
+    <GenericName></GenericName>
+    <SpecificName>Western Clergy</SpecificName>
+    <Icon>units/west_support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/west/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/western/healer.xml</Actor>
+  </VisualActor>
+</Entity>

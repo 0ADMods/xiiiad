@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Leather-Coif-Open">
+      <mesh>props/helmet/mail_coif_open_face.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Leather-Coif">
+      <textures>
+        <texture file="props/helmet/leather_coif_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_healer_female.xml" name="Healer-Female"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>
