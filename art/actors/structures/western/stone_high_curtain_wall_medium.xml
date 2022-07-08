@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="West-Stone-High-Curtain-Wall-medium">
+      <mesh>structural/west_stone_high_curtain_wall_medium.dae</mesh>
+      <textures>
+        <texture file="structural/west_struct.png" name="baseTex"/>
+        <texture file="structural/west_struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

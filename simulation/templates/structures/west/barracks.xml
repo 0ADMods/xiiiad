@@ -15,6 +15,11 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_crossbowman_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/western/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>

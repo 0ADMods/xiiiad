@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_medium">
+  <Cost>
+    <BuildTime>8</BuildTime>
+    <Resources>
+      <stone>32</stone>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="10.0" depth="3.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Health>
+    <Max op="mul">0.4</Max>
+  </Health>
+  <Identity>
+    <Civ>west</Civ>
+    <SelectionGroupName>structures/west/wallset_stone_high_curtain_wall</SelectionGroupName>
+    <GenericName>Stone High Curtain Wall</GenericName>
+    <SpecificName>Western Stone High Curtain Wall</SpecificName>
+    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <Icon>structures/siege_wall.png</Icon>
+  </Identity>
+  <Loot>
+    <stone>8</stone>
+  </Loot>
+  <Obstruction>
+    <Static width="9.0" depth="2.0"/>
+  </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>15</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <StatusBars>
+    <HeightOffset>7.0</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/western/stone_high_curtain_wall_medium.xml</Actor>
+    <FoundationActor>structures/fndn_3x1.xml</FoundationActor>
+  </VisualActor>
+  <WallPiece>
+    <Length>9</Length>
+  </WallPiece>
+</Entity>

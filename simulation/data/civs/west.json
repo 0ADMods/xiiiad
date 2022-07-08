@@ -26,7 +26,8 @@
 	"CivBonuses": [],
 	"WallSets": [
 		"structures/west/wallset_stone",
-		"structures/west/wallset_stone_low_curtain_wall"
+		"structures/west/wallset_stone_low_curtain_wall",
+		"structures/west/wallset_stone_high_curtain_wall"
 	],
 	"StartEntities": [
 		{
@@ -46,17 +47,23 @@
 		},
 		{
 			"Template": "units/west/cavalry_spearman_b"
+		},
+		{
+			"Template": "units/west/support_healer_b"
 		}
 	],
 	"AINames": [
-		"Baron",
-		"Bishop",
-		"Count",
-		"Earl",
-		"Marshal",
-		"Duke"
+		"The Baron",
+		"The Bishop",
+		"The Constable",
+		"The Count",
+		"The Earl",
+		"The Marshal",
+		"The Duke"
 	],
 	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/west/cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/han/infantry_archer_b",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true

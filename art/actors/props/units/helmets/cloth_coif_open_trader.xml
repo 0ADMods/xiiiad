@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Cloth-Coif-Open">
+      <mesh>props/helmet/mail_coif_open_face.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Cloth-Coif-02">
+      <textures>
+        <texture file="props/helmet/cloth_coif_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant name="Cloth-Coif-03">
+      <textures>
+        <texture file="props/helmet/cloth_coif_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_trader.xml" name="Trader"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
