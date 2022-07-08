@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>west</Civ>
+    <GenericName>Western Stone Low Curtain Wall</GenericName>
+    <Tooltip>Wall off an area. Build in own or neutral territory.</Tooltip>
+    <VisibleClasses datatype="tokens">-Wall Palisade</VisibleClasses>
+    <Icon>structures/palisade_wall.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/west/stone_low_curtain_wall_tower</Tower>
+      <Gate>structures/palisades_gate</Gate>
+      <Fort>structures/west/stone_low_curtain_wall_tower</Fort>
+      <WallLong>structures/west/stone_low_curtain_wall_long</WallLong>
+      <WallMedium>structures/west/stone_low_curtain_wall_medium</WallMedium>
+      <WallShort>structures/west/stone_low_curtain_wall_short</WallShort>
+    </Templates>
+  </WallSet>
+</Entity>
