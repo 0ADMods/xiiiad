@@ -25,7 +25,8 @@
 	],
 	"CivBonuses": [],
 	"WallSets": [
-		"structures/west/wallset_stone"
+		"structures/west/wallset_stone",
+		"structures/west/wallset_stone_low_curtain_wall"
 	],
 	"StartEntities": [
 		{

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="structures/palisades_short">
+<Entity parent="template_structure_defensive_wall_short">
   <Cost>
     <BuildTime>4</BuildTime>
     <Resources>
@@ -13,12 +13,27 @@
   <Health>
     <Max op="mul">0.2</Max>
   </Health>
+  <Identity>
+    <Civ>west</Civ>
+    <SelectionGroupName>structures/west/wallset_stone_low_curtain_wall</SelectionGroupName>
+    <GenericName>Stone Low Curtain Wall</GenericName>
+    <SpecificName>Western Stone Low Curtain Wall</SpecificName>
+    <VisibleClasses datatype="tokens">SiegeWall</VisibleClasses>
+    <Icon>structures/siege_wall.png</Icon>
+  </Identity>
   <Loot>
     <stone>2</stone>
   </Loot>
   <Obstruction>
     <Static width="4" depth="2"/>
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>15</Hack>
+      </Damage>
+    </Entity>
+  </Resistance>
   <StatusBars>
     <HeightOffset>7</HeightOffset>
   </StatusBars>
