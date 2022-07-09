@@ -5,15 +5,17 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/leather_coif_open_archer.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
-        <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
+        <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Helmet-Cervelliere">
+      <props>
+        <prop actor="props/units/helmets/cervelliere_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
     <variant frequency="1" name="Helmet-Conical-Nasal">
       <props>
         <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
@@ -36,24 +38,28 @@
         <texture file="skeletal/western/full_gambeson_01_05.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hauberk-01-01">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Hauberk-01-02">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Hauberk-01-03">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
   </group>
   <group>
-    <variant file="biped/base_archer_relax.xml" name="Base-Archer-Relax"/>
+    <variant file="biped/base_pikeman_relax.xml"/>
+    <variant file="biped/formations/syntagma_front.xml"/>
+    <variant file="biped/formations/syntagma_01.xml"/>
+    <variant file="biped/formations/syntagma_02.xml"/>
+    <variant file="biped/formations/syntagma_03.xml"/>
+    <variant file="biped/formations/syntagma_04.xml"/>
+    <variant file="biped/formations/syntagma_back.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -69,25 +75,7 @@
     <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_ranged_archer_hip.xml"/>
-    <variant file="biped/attack_capture.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/gather_tree.xml"/>
-    <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/gather_rock.xml"/>
-    <variant file="biped/gather_ore.xml"/>
-    <variant file="biped/gather_ruins.xml"/>
-    <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/helmets/leather_coif_open_archer.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant name="Idle"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

@@ -4,6 +4,7 @@
   <group>
     <variant name="Base">
       <props>
+        <prop actor="props/units/helmets/mail_coif_open_cavalry_spearman.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_long.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/kite_01.xml" attachpoint="shield_arm"/>
@@ -11,9 +12,18 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Great">
+    <variant frequency="1" name="Helmet-Cervelliere-Player">
       <props>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/cervelliere_helmet_player.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Flattop-Nasal-Player">
+      <props>
+        <prop actor="props/units/helmets/flattop_nasal_helmet_player.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="Helmet-Great">
+      <props>
         <prop actor="props/units/helmets/great_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
@@ -65,7 +75,11 @@
     <variant file="biped/rider/attack_slaughter_shield_hele.xml"/>
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/rider/death_aspis.xml"/>
+    <variant file="biped/rider/death_aspis.xml">
+      <props>
+        <prop actor="props/units/helmets/mail_coif_open_cavalry_spearman.xml" attachpoint="root"/>
+      </props>
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

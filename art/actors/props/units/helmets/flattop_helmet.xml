@@ -2,7 +2,7 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="helmet-great-helmet">
+    <variant frequency="1" name="helmet-flattop-helmet">
       <textures>
         <texture file="props/helmet/flattop_helmet.png" name="baseTex"/>
       </textures>

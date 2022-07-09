@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="mesh-helmet-cervelliere_01">
+      <mesh>props/helmet/cervelliere_01.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-cervelliere-01-02">
+      <textures>
+        <texture file="props/helmet/cervelliere_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

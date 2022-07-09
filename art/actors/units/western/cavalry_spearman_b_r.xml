@@ -33,7 +33,7 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis.xml" frequency="1" name="Spearman-Relax-Shield-Aspis"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
@@ -41,7 +41,7 @@
     <variant file="biped/rider/promotion_shield.xml"/>
     <variant file="biped/rider/attack_slaughter_shield_rome.xml"/>
     <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/rider/death_shield.xml"/>
+    <variant file="biped/rider/death_aspis.xml"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>

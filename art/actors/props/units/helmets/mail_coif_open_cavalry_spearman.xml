@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Mail-Coif-Open">
+      <mesh>props/helmet/mail_coif_open_face.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Mail-Coif">
+      <textures>
+        <texture file="props/helmet/mail_coif_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis.xml" frequency="1" name="Spearman-Relax-Shield-Aspis"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_rome.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_aspis.xml"/>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

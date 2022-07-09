@@ -41,6 +41,21 @@
         <texture file="skeletal/western/full_hauberk_01_06.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/western/hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-01-02">
+      <textures>
+        <texture file="skeletal/western/hauberk_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-01-03">
+      <textures>
+        <texture file="skeletal/western/hauberk_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>

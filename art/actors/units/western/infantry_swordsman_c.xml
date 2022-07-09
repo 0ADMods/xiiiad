@@ -4,6 +4,7 @@
   <group>
     <variant name="Base">
       <props>
+        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/shields/kite_01.xml" attachpoint="shield"/>
       </props>
@@ -13,32 +14,37 @@
     <variant frequency="1" name="Helmet-Coif-Open">
       <props>
         <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Cervelliere">
+      <props>
+        <prop actor="props/units/helmets/cervelliere_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Conical-Nasal">
       <props>
         <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Flattop">
       <props>
         <prop actor="props/units/helmets/flattop_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Flattop-Nasal-01">
+      <props>
+        <prop actor="props/units/helmets/flattop_nasal_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Kettle">
       <props>
         <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Great">
       <props>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/great_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -48,7 +54,7 @@
         <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
-    <variant frequency="3" name="One-Hand-Sword">
+    <variant frequency="3" name="Arming-Sword">
       <props>
         <prop actor="props/units/weapons/arming_sword_01.xml" attachpoint="weapon_R"/>
       </props>
