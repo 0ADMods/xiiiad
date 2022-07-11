@@ -2,51 +2,24 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
-      <props>
-        <prop actor="props/units/helmets/cloth_coif_open_pikeman.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
-      </props>
+    <variant name="Cloth-Coif-Open">
+      <mesh>props/helmet/mail_coif_open_face.dae</mesh>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Cervelliere">
-      <props>
-        <prop actor="props/units/helmets/cervelliere_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Conical-Nasal">
-      <props>
-        <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Kettle">
-      <props>
-        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Hauberk-01-01">
+    <variant name="Cloth-Coif-02">
       <textures>
-        <texture file="skeletal/western/hauberk_01_01.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_coif_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hauberk-01-02">
+    <variant name="Cloth-Coif-03">
       <textures>
-        <texture file="skeletal/western/hauberk_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Hauberk-01-03">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_03.png" name="baseTex"/>
+        <texture file="props/helmet/cloth_coif_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_pikeman_relax.xml"/>
+    <variant file="biped/base_pikeman_relax.xml" name="Pikeman-Relax"/>
     <variant file="biped/formations/syntagma_front.xml"/>
     <variant file="biped/formations/syntagma_01.xml"/>
     <variant file="biped/formations/syntagma_02.xml"/>
@@ -79,9 +52,6 @@
     <variant file="biped/approach_ore.xml"/>
     <variant file="biped/approach_ruins.xml"/>
     <variant file="biped/approach_praise.xml"/>
-  </group>
-  <group>
-    <variant name="Idle"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

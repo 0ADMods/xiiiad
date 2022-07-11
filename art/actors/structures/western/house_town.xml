@@ -20,6 +20,9 @@
     <variant frequency="1" name="Western-House-Town-02">
       <mesh>structural/west_house_town_02.dae</mesh>
     </variant>
+    <variant frequency="1" name="Western-House-Town-03">
+      <mesh>structural/west_house_town_03.dae</mesh>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>

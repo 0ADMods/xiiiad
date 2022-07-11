@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="1.5" depth="3"/>
-    <Height>5</Height>
+    <Square width="4" depth="4"/>
+    <Height>4</Height>
   </Footprint>
   <Health>
     <Max op="mul">0.75</Max>
@@ -25,7 +25,7 @@
     <stone>2</stone>
   </Loot>
   <Obstruction>
-    <Static width="1.5" depth="2"/>
+    <Static width="2" depth="2"/>
   </Obstruction>
   <Resistance>
     <Entity>
@@ -39,6 +39,7 @@
   </StatusBars>
   <VisualActor>
     <Actor>structures/western/stone_low_curtain_wall_tower.xml</Actor>
+	<FoundationActor disable=""/>
   </VisualActor>
   <WallPiece>
     <Length>0.8</Length>

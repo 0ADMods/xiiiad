@@ -4,9 +4,7 @@
   <group>
     <variant frequency="1" name="base">
       <props>
-        <prop actor="props/structures/decals/spart_barracks.xml" attachpoint="root"/>
-        <prop actor="structures/ptolemies/stall_big.xml" attachpoint="stall01"/>
-        <prop actor="structures/ptolemies/stall_big.xml" attachpoint="stall02"/>
+        <prop actor="props/structures/decals/dirt_6x6.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/west_struct.png" name="baseTex"/>
@@ -16,8 +14,8 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Western-Market">
-      <mesh>structural/west_market.dae</mesh>
+    <variant frequency="1" name="Western-Tavern">
+      <mesh>structural/west_tavern.dae</mesh>
     </variant>
   </group>
   <group>

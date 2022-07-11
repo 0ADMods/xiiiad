@@ -46,6 +46,16 @@
         <texture file="props/shield/kite_01_07.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Shield-Kite-01-08">
+      <textures>
+        <texture file="props/shield/kite_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-09">
+      <textures>
+        <texture file="props/shield/kite_01_09.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_parallax_spec.xml</material>
 </actor>

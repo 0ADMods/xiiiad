@@ -2,6 +2,7 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
+      structures/west/tavern
       structures/west/wallset_stone_low_curtain_wall
       structures/west/wallset_stone_high_curtain_wall
     </Entities>

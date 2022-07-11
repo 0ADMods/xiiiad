@@ -3,7 +3,7 @@
   <Identity>
     <Civ>west</Civ>
     <SpecificName>Mounted Knight</SpecificName>
-    <Icon>units/west_champion_cavalry.png</Icon>
+    <Icon>units/west_champion_cavalry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/western/cavalry_spearman_c_m.xml</Actor>
