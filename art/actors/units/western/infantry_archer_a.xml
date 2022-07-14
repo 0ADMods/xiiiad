@@ -14,31 +14,22 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Conical-Nasal">
+    <variant frequency="1" name="Padded-Cap">
       <props>
-        <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Kettle">
-      <props>
-        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/padded_cap.xml" attachpoint="helmet"/>
+        <prop attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="3" name="Full-Gambeson-01-01">
+    <variant frequency="1" name="Boiled-Leather-01-01">
       <textures>
-        <texture file="skeletal/western/full_gambeson_01_01.png" name="baseTex"/>
+        <texture file="skeletal/western/boiled_leather_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Full-Gambeson-01-02">
+    <variant frequency="1" name="Boiled-Leather-01-02">
       <textures>
-        <texture file="skeletal/western/full_gambeson_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Full-Gambeson-01-03">
-      <textures>
-        <texture file="skeletal/western/full_gambeson_01_03.png" name="baseTex"/>
+        <texture file="skeletal/western/boiled_leather_01_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

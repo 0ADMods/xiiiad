@@ -2,7 +2,7 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>west</Civ>
-    <SelectionGroupName>units/rome/cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/west/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Western Mounted Serf</SpecificName>
     <Icon>units/west_cavalry_spearman.png</Icon>
   </Identity>

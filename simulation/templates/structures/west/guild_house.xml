@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Auras datatype="tokens">
+    structures/west_guild_house_economic
+  </Auras>
+  <Footprint>
+    <Square width="20.0" depth="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1200</Max>
+  </Health>
+  <Identity>
+    <Civ>west</Civ>
+    <SpecificName>Western Guild House</SpecificName>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <Icon>structures/tholos.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="18.0" depth="14.0"/>
+  </Obstruction>
+  <ProductionQueue/>
+  <Trainer>
+    <BatchTimeModifier>0.8</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/west/support_guildsman
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/western/guild_house.xml</Actor>
+  </VisualActor>
+</Entity>

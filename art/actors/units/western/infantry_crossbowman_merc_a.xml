@@ -5,7 +5,6 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/cloth_coif_open_crossbowman.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/crossbow/han_nu.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
@@ -13,26 +12,22 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Conical-Nasal">
+    <variant frequency="1" name="Padded-Cap">
       <props>
-        <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Kettle">
-      <props>
-        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/padded_cap.xml" attachpoint="helmet"/>
+        <prop attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Full-Gambeson-01-04">
+    <variant frequency="1" name="Boiled-Leather-01-01">
       <textures>
-        <texture file="skeletal/western/full_gambeson_01_04.png" name="baseTex"/>
+        <texture file="skeletal/western/boiled_leather_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Full-Gambeson-01-05">
+    <variant frequency="1" name="Boiled-Leather-01-02">
       <textures>
-        <texture file="skeletal/western/full_gambeson_01_05.png" name="baseTex"/>
+        <texture file="skeletal/western/boiled_leather_01_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -71,7 +66,7 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
       <props>
-        <prop actor="props/units/helmets/cloth_coif_open_crossbowman.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/leather_coif_open.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

@@ -1,0 +1,10 @@
+{
+	"type": "global",
+	"affects": ["Trader"],
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 1.25 }
+	],
+	"auraName": "Guilds",
+	"auraDescription": "Provides +25% trade gain.",
+	"stackable": true
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="props/structures/decals/spart_1x1.xml" attachpoint="root"/>
+        <prop actor="structures/ptolemies/stall_big.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/west_struct.png" name="baseTex"/>
+        <texture file="structural/west_struct_spec.png" name="specTex"/>
+        <texture file="structural/west_struct_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Western-House-Shop-01">
+      <mesh>structural/west_shop_01.dae</mesh>
+    </variant>
+    <variant frequency="1" name="Western-House-Shop-02">
+      <mesh>structural/west_shop_02.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

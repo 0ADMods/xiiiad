@@ -25,9 +25,34 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Coat-Of-Plates-Gambeson-01-01">
+      <textures>
+        <texture file="skeletal/western/coat_of_plates_gambeson_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Coat-Of-Plates-Gambeson-01-02">
+      <textures>
+        <texture file="skeletal/western/coat_of_plates_gambeson_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="Full-Hauberk-01-01">
       <textures>
         <texture file="skeletal/western/full_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gambeson-Diagonal-Coloful-01-01">
+      <textures>
+        <texture file="skeletal/western/gambeson_diagonal_colorful_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gambeson-Diagonal-Coloful-01-02">
+      <textures>
+        <texture file="skeletal/western/gambeson_diagonal_colorful_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gambeson-Diagonal-Coloful-01-03">
+      <textures>
+        <texture file="skeletal/western/gambeson_diagonal_colorful_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Hauberk-01-01">
