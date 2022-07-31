@@ -8,6 +8,9 @@
   </Identity>
   <Player>
     <Formations datatype="tokens">
+      special/formations/phalanx
+      special/formations/syntagma
+      special/formations/testudo
     </Formations>
   </Player>
 </Entity>

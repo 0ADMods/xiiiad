@@ -12,9 +12,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Padded-Cap">
+    <variant frequency="1" name="Padded-Cap-Leather">
       <props>
-        <prop actor="props/units/helmets/padded_cap.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/padded_cap_leather.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Coif-Leather">
@@ -27,6 +27,11 @@
     <variant frequency="3" name="One-Hand-Axe">
       <props>
         <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="Goedendag-Short">
+      <props>
+        <prop actor="props/units/weapons/goedendag_short.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant frequency="1" name="Warhammer">
@@ -49,6 +54,41 @@
     <variant frequency="1" name="Boiled-Leather-01-02">
       <textures>
         <texture file="skeletal/western/boiled_leather_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-01-01">
+      <textures>
+        <texture file="skeletal/western/leather_vest_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-01-02">
+      <textures>
+        <texture file="skeletal/western/leather_vest_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-02-01">
+      <textures>
+        <texture file="skeletal/western/leather_vest_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-02-02">
+      <textures>
+        <texture file="skeletal/western/leather_vest_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-02-01">
+      <textures>
+        <texture file="skeletal/western/tunic_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-02-02">
+      <textures>
+        <texture file="skeletal/western/tunic_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-02-03">
+      <textures>
+        <texture file="skeletal/western/tunic_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

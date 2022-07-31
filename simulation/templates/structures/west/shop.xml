@@ -6,9 +6,9 @@
   <Cost>
     <BuildTime op="mul">1.5</BuildTime>
     <Resources>
-      <wood op="add">50</wood>
-      <stone op="add">50</stone>
-      <metal op="add">100</metal>
+      <wood op="add">100</wood>
+      <stone op="add">250</stone>
+      <metal op="add">250</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -44,7 +44,7 @@
     <Interval>2000</Interval>
   </ResourceTrickle>
   <Population>
-    <Bonus op="add">10</Bonus>
+    <Bonus op="add">5</Bonus>
   </Population>
   <VisualActor>
     <Actor>structures/western/shop.xml</Actor>

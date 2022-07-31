@@ -7,8 +7,24 @@
       <props>
         <prop actor="props/units/helmets/gambeson_hood_white.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/kite_01.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Fauchard">
+      <props>
+        <prop actor="props/units/weapons/fauchard.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Goedendag-Long">
+      <props>
+        <prop actor="props/units/weapons/goedendag_long.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Spear">
+      <props>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
@@ -26,6 +42,11 @@
     <variant frequency="1" name="Full-Gambeson-01-03">
       <textures>
         <texture file="skeletal/western/full_gambeson_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Full-Gambeson-02-01">
+      <textures>
+        <texture file="skeletal/western/full_gambeson_02_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

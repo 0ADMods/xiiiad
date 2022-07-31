@@ -5,7 +5,7 @@
     <variant name="Base">
       <props>
         <prop actor="props/units/helmets/mail_coif_open_cavalry_spearman.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_long.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/kite_01.xml" attachpoint="shield_arm"/>
       </props>
@@ -63,6 +63,24 @@
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-07">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-08">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-09">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_09.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_swordsman">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>225</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>west</Civ>
+    <SpecificName>Knight Templar</SpecificName>
+    <Icon>units/west_champion_infantry_swordsman_templar.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/templar/infantry_swordsman_c.xml</Actor>
+  </VisualActor>
+</Entity>

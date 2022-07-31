@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/west/cavalry_spearman_merc_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <Civ>west</Civ>
+    <SelectionGroupName>units/west/cavalry_spearman_merc_b</SelectionGroupName>
+    <GenericName></GenericName>
+    <SpecificName>Experienced Western Mounted Mercenary</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/west/cavalry_spearman_merc_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/western/cavalry_spearman_merc_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -10,19 +10,29 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gambeson-Diagonal-Coloful-01-01">
+    <variant frequency="1" name="Leather-Vest-02-01">
       <textures>
-        <texture file="skeletal/western/gambeson_diagonal_colorful_01_01.png" name="baseTex"/>
+        <texture file="skeletal/western/leather_vest_02_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gambeson-Diagonal-Coloful-01-02">
+    <variant frequency="1" name="Leather-Vest-02-02">
       <textures>
-        <texture file="skeletal/western/gambeson_diagonal_colorful_01_02.png" name="baseTex"/>
+        <texture file="skeletal/western/leather_vest_02_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gambeson-Diagonal-Coloful-01-03">
+    <variant frequency="1" name="Tunic-02-01">
       <textures>
-        <texture file="skeletal/western/gambeson_diagonal_colorful_01_03.png" name="baseTex"/>
+        <texture file="skeletal/western/tunic_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-02-02">
+      <textures>
+        <texture file="skeletal/western/tunic_02_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Tunic-02-03">
+      <textures>
+        <texture file="skeletal/western/tunic_02_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

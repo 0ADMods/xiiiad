@@ -7,8 +7,34 @@
       <props>
         <prop actor="props/units/helmets/cloth_coif_open.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/kite_01_leather.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Fauchard">
+      <props>
+        <prop actor="props/units/weapons/fauchard.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Goedendag-Long">
+      <props>
+        <prop actor="props/units/weapons/goedendag_long.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Pitchfork">
+      <props>
+        <prop actor="props/units/tools/pitchfork.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Scythe">
+      <props>
+        <prop actor="props/units/tools/scythe.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="Spear">
+      <props>
+        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <wood>0</wood>
+      <stone>0</stone>
+      <metal>175</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <SpecificName>Templar Sergeant Spearman</SpecificName>
+    <Icon>units/west_champion_infantry_spearman_templar.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/templar/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

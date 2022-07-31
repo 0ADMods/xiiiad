@@ -3,23 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
+        <prop actor="props/units/helmets/cloth_coif_open.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/csword.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/shields/kite_01.xml" attachpoint="shield"/>
-      </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Helmet-Conical-Nasal">
-      <props>
-        <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
-    <variant frequency="1" name="Helmet-Kettle">
-      <props>
-        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/kite_01_leather.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
@@ -41,15 +30,24 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Full-Gambeson-01-04">
+    <variant frequency="1" name="Tunic-01-02">
       <textures>
-        <texture file="skeletal/western/full_gambeson_01_04.png" name="baseTex"/>
+        <texture file="skeletal/western/tunic_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Full-Gambeson-01-05">
-      <textures>
-        <texture file="skeletal/western/full_gambeson_01_05.png" name="baseTex"/>
-      </textures>
+  </group>
+  <group>
+    <variant frequency="1" name="White">
+      <color>255 255 255</color>
+    </variant>
+    <variant frequency="1" name="Beige">
+      <color>243 205 167</color>
+    </variant>
+    <variant frequency="1" name="Ochre">
+      <color>247 205 119</color>
+    </variant>
+    <variant frequency="1" name="Brown">
+      <color>113 72 43</color>
     </variant>
   </group>
   <group>
@@ -84,5 +82,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>objectcolor.xml</material>
 </actor>

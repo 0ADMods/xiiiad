@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+  <Cost>
+    <Resources>
+      <wood>250</wood>
+      <stone>500</stone>
+      <metal>750</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>11.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1200</Max>
+  </Health>
+  <Identity>
+    <Civ>west</Civ>
+    <SpecificName>Western Templar Commandery</SpecificName>
+    <Tooltip>Recruit Crusaders.</Tooltip>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <Icon>structures/military_settlement.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>40</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/champion_cavalry_spearman_templar
+      units/{civ}/champion_infantry_swordsman_templar
+      units/{civ}/champion_infantry_spearman_templar
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/western/templar_commandery.xml</Actor>
+  </VisualActor>
+</Entity>

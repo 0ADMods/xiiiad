@@ -37,7 +37,7 @@
     <Max>200</Max>
   </Health>
   <Identity>
-    <Civ>han</Civ>
+    <Civ>west</Civ>
     <GenericName>Guildsman</GenericName>
     <SpecificName>Western Guildsman</SpecificName>
     <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only Western buildings can garrison guildsmen.</Tooltip>

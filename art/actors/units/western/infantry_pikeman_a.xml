@@ -5,6 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
+        <prop actor="props/units/helmets/leather_coif_open_pikeman.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
       </props>
@@ -36,6 +37,31 @@
     <variant frequency="1" name="Boiled-Leather-01-02">
       <textures>
         <texture file="skeletal/western/boiled_leather_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Gambeson-01-07">
+      <textures>
+        <texture file="skeletal/western/full_gambeson_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-01-01">
+      <textures>
+        <texture file="skeletal/western/leather_vest_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-01-02">
+      <textures>
+        <texture file="skeletal/western/leather_vest_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-02-01">
+      <textures>
+        <texture file="skeletal/western/leather_vest_02_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Leather-Vest-02-02">
+      <textures>
+        <texture file="skeletal/western/leather_vest_02_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

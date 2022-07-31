@@ -5,6 +5,7 @@
     <variant frequency="1" name="Base">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
+        <prop actor="props/units/helmets/cloth_coif_open_pikeman.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear/han_ji.xml" attachpoint="weapon_R"/>
       </props>
@@ -41,6 +42,11 @@
     <variant frequency="1" name="Full-Gambeson-01-03">
       <textures>
         <texture file="skeletal/western/full_gambeson_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Full-Gambeson-02-01">
+      <textures>
+        <texture file="skeletal/western/full_gambeson_02_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Tunic-01-02">

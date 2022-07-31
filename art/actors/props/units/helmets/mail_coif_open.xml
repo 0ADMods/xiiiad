@@ -15,6 +15,7 @@
   </group>
   <group>
     <variant file="biped/base_spearman_shield_relax.xml" name="Spearman-Shield-Relax"/>
+    <variant file="biped/base_spearman_shield_relax_celt.xml" name="Spearman-Shield-Relax-Celt"/>
     <variant file="biped/base_spearman_shield_ready.xml" name="Spearman-Shield-Ready"/>
     <variant file="biped/base_swordsman_shield_relax.xml" name="Swordsman-Shield-Relax"/>
     <variant file="biped/base_swordsman_shield_ready.xml" name="Swordsman-Shield-Ready"/>

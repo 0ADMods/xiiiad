@@ -30,6 +30,11 @@
         <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
+    <variant frequency="9" name="Goedendag-Short">
+      <props>
+        <prop actor="props/units/weapons/goedendag_short.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
     <variant frequency="1" name="Warhammer">
       <props>
         <prop actor="props/units/weapons/warhammer_01.xml" attachpoint="weapon_R"/>

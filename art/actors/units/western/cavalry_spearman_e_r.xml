@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/shields/kite_01.xml" attachpoint="shield_arm"/>
@@ -25,35 +25,14 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Full-Gambeson-01-04">
-      <textures>
-        <texture file="skeletal/western/full_gambeson_01_04.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Full-Gambeson-01-05">
-      <textures>
-        <texture file="skeletal/western/full_gambeson_01_05.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="Full-Hauberk-01-06">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_06.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hauberk-01-01">
+    <variant frequency="1" name="Hauberk-01-04">
       <textures>
-        <texture file="skeletal/western/hauberk_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Hauberk-01-02">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Hauberk-01-03">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_03.png" name="baseTex"/>
+        <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

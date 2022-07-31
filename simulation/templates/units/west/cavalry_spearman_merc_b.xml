@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_cav|template_unit_cavalry_melee_spearman">
+  <Identity>
+    <Civ>west</Civ>
+    <SelectionGroupName>units/west/cavalry_spearman_merc_b</SelectionGroupName>
+    <GenericName></GenericName>
+    <SpecificName>Western Mounted Mercenary</SpecificName>
+    <Icon>units/west_cavalry_spearman_mercenary.png</Icon>
+    <RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/west/cavalry_spearman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/western/cavalry_spearman_merc_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

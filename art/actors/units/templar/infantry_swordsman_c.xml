@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/kite_01_templar.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet-Coif-Open">
+      <props>
+        <prop actor="" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Cervelliere">
+      <props>
+        <prop actor="props/units/helmets/cervelliere_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Conical-Nasal">
+      <props>
+        <prop actor="props/units/helmets/conical_nasal_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Flattop">
+      <props>
+        <prop actor="props/units/helmets/flattop_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Flattop-Nasal-01">
+      <props>
+        <prop actor="props/units/helmets/flattop_nasal_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Kettle">
+      <props>
+        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Great">
+      <props>
+        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/great_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="Arming-Sword">
+      <props>
+        <prop actor="props/units/weapons/arming_sword_01.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="Falchion">
+      <props>
+        <prop actor="props/units/weapons/falchion.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="One-Hand-Axe">
+      <props>
+        <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Warhammer">
+      <props>
+        <prop actor="props/units/weapons/warhammer_01.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Full-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/templar/full_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-02">
+      <textures>
+        <texture file="skeletal/templar/full_hauberk_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-03">
+      <textures>
+        <texture file="skeletal/templar/full_hauberk_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-04">
+      <textures>
+        <texture file="skeletal/templar/full_hauberk_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml" frequency="1" name="Swordsman-Shield-Relax"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

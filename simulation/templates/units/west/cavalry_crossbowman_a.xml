@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/west/cavalry_crossbowman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Promotion>
+    <Entity>units/west/cavalry_crossbowman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/western/cavalry_crossbowman_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

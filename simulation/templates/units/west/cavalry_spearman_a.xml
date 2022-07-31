@@ -2,6 +2,7 @@
 <Entity parent="units/west/cavalry_spearman_b">
   <Identity>
     <Rank>Advanced</Rank>
+    <SpecificName>Mounted Militia</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/west/cavalry_spearman_e</Entity>

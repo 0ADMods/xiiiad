@@ -14,6 +14,12 @@
         <texture file="props/helmet/kettle_helmet_02_01.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant name="helmet-kettle-03">
+      <mesh>props/helmet/kettle_03.dae</mesh>
+      <textures>
+        <texture file="props/helmet/kettle_helmet_03_01.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans.xml</material>
 </actor>

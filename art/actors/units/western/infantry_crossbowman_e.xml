@@ -26,15 +26,18 @@
   </group>
   <group>
     <variant frequency="1" name="Full-Hauberk-01-05">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_05.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Full-Hauberk-01-06">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-07">
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_07.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

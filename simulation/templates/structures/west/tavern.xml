@@ -2,7 +2,9 @@
 <Entity parent="template_structure_military_embassy">
   <Cost>
     <Resources>
-      <wood>200</wood>
+      <wood>250</wood>
+      <stone>250</stone>
+      <metal>250</metal>
     </Resources>
   </Cost>
   <Footprint>
@@ -29,6 +31,7 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_swordsman_merc_b
       units/{civ}/infantry_crossbowman_merc_b
+      units/{civ}/cavalry_spearman_merc_b
     </Entities>
   </Trainer>
   <VisualActor>

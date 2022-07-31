@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <SpecificName>Burgher Sergeant Spearman</SpecificName>
+    <Icon>units/west_champion_infantry_spearman.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/western/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -53,12 +53,15 @@
 		}
 	],
 	"AINames": [
+		"The Bailiff",
 		"The Baron",
 		"The Bishop",
 		"The Constable",
 		"The Count",
 		"The Duke",
 		"The Earl",
+		"The Lord",
+		"The Marcher Lord",
 		"The Marshal",
 		"The Prince"
 

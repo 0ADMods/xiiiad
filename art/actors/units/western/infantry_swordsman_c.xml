@@ -3,9 +3,10 @@
   <castshadow/>
   <group>
     <variant name="Base">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/shields/kite_01.xml" attachpoint="shield"/>
       </props>
     </variant>
@@ -49,14 +50,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="One-Hand-Axe">
-      <props>
-        <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
     <variant frequency="3" name="Arming-Sword">
       <props>
         <prop actor="props/units/weapons/arming_sword_01.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="3" name="Falchion">
+      <props>
+        <prop actor="props/units/weapons/falchion.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="One-Hand-Axe">
+      <props>
+        <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant frequency="1" name="Warhammer">
@@ -67,39 +73,49 @@
   </group>
   <group>
     <variant frequency="1" name="Full-Hauberk-01-01">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Full-Hauberk-01-02">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Full-Hauberk-01-03">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_03.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Full-Hauberk-01-04">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_04.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Full-Hauberk-01-05">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_05.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Full-Hauberk-01-06">
-      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <textures>
         <texture file="skeletal/western/full_hauberk_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-07">
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-08">
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Full-Hauberk-01-09">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_09.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
