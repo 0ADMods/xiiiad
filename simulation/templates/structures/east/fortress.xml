@@ -13,6 +13,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/infantry_axeman_e
       units/{civ}/infantry_spearman_e
       units/{civ}/infantry_crossbowman_e
       units/{civ}/cavalry_spearman_e

@@ -39,9 +39,9 @@
   </Obstruction>
   <ResourceTrickle>
     <Rates>
-      <metal>1.0</metal>
+      <metal>5.0</metal>
     </Rates>
-    <Interval>2000</Interval>
+    <Interval>10000</Interval>
   </ResourceTrickle>
   <Population>
     <Bonus op="add">5</Bonus>
