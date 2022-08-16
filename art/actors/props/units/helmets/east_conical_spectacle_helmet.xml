@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="mesh-helmet-east-conical-nasal-spectacle-01">
+      <mesh>props/helmet/east_conical_spectacle_01.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-east-conical-spectacle-01">
+      <textures>
+        <texture file="props/helmet/east_conical_spectacle_helmet_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

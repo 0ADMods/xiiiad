@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Shield-Knightly-01">
+      <mesh>props/shield/knightly_01.dae</mesh>
+      <textures>
+        <texture file="props/shield/kite_01_spec.png" name="specTex"/>
+        <texture file="props/shield/kite_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Shield-Kite-01-01">
+      <textures>
+        <texture file="props/shield/kite_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-02">
+      <textures>
+        <texture file="props/shield/kite_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-03">
+      <textures>
+        <texture file="props/shield/kite_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-04">
+      <textures>
+        <texture file="props/shield/kite_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-05">
+      <textures>
+        <texture file="props/shield/kite_01_05.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-06">
+      <textures>
+        <texture file="props/shield/kite_01_06.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-07">
+      <textures>
+        <texture file="props/shield/kite_01_07.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-08">
+      <textures>
+        <texture file="props/shield/kite_01_08.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-01-09">
+      <textures>
+        <texture file="props/shield/kite_01_09.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

@@ -3,7 +3,7 @@
   <Identity>
     <Civ>west</Civ>
     <SelectionGroupName>units/west/cavalry_crossbowman_b</SelectionGroupName>
-    <SpecificName>Mounted Serf Crossbowman</SpecificName>
+    <SpecificName>Western Mounted Serf Crossbowman</SpecificName>
     <Icon>units/west_cavalry_crossbowman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

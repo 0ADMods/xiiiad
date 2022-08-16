@@ -20,6 +20,7 @@
     <Max op="mul">1.5</Max>
   </Health>
   <Identity>
+    <Civ>west</Civ>
     <SpecificName>Western Town Dwelling</SpecificName>
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>

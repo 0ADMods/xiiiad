@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_cavalry_archer">
+  <Identity>
+    <Civ>east</Civ>
+    <SpecificName>Eastern Heavy Mounted Archer</SpecificName>
+    <Icon>units/east_champion_cavalry_archer.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/eastern/cavalry_archer_c_m.xml</Actor>
+  </VisualActor>
+</Entity>

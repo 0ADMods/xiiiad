@@ -1,0 +1,64 @@
+{
+	"Code": "east",
+	"Culture": "east",
+	"Music": [
+		{
+			"File": "Celtic_Pride.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cisalpine_Gaul.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Water's_Edge.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sunrise.ogg",
+			"Type": "peace"
+		}
+	],
+	"CivBonuses": [],
+	"StartEntities": [
+		{
+			"Template": "structures/east/civil_centre"
+		},
+		{
+			"Template": "units/east/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/east/infantry_axeman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/east/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/east/cavalry_archer_b"
+		},
+		{
+			"Template": "units/east/support_healer_b"
+		}
+	],
+	"AINames": [
+		"The Boyar",
+		"The Druzhina",
+		"The Knyaz",
+		"The Prince",
+		"The Voivode"
+
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/east/cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/east/infantry_archer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
+	},
+	"SelectableInGameSetup": true
+}

@@ -52,27 +52,13 @@
       </textures>
     </variant>
     <variant frequency="1" name="Hauberk-01-01">
-      <props>
-        <prop actor="props/units/helmets/cloth_coif_open.xml" attachpoint="root"/>
-      </props>
       <textures>
         <texture file="skeletal/western/hauberk_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hauberk-01-02">
-      <props>
-        <prop actor="props/units/helmets/cloth_coif_open.xml" attachpoint="root"/>
-      </props>
+    <variant frequency="1" name="Hauberk-01-04">
       <textures>
-        <texture file="skeletal/western/hauberk_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Hauberk-01-03">
-      <props>
-        <prop actor="props/units/helmets/cloth_coif_open.xml" attachpoint="root"/>
-      </props>
-      <textures>
-        <texture file="skeletal/western/hauberk_01_03.png" name="baseTex"/>
+        <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

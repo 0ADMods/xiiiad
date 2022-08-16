@@ -2,7 +2,7 @@
 <Entity parent="units/west/infantry_archer_b">
   <Identity>
     <Rank>Advanced</Rank>
-    <SpecificName>Militia Archer</SpecificName>
+    <SpecificName>Western Militia Archer</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_archer_e</Entity>

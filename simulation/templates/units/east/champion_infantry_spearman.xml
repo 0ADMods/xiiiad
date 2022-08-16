@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <SpecificName>Eastern Noble Spearman</SpecificName>
+    <Icon>units/east_champion_infantry_spearman.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+  </Identity>
+  <VisualActor>
+    <Actor>units/eastern/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

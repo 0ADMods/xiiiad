@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/west/infantry_crossbowman_a">
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <metal op="add">25</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Rank>Elite</Rank>
-    <SpecificName>Sergeant Crossbowman</SpecificName>
+    <SpecificName>Western Sergeant Crossbowman</SpecificName>
   </Identity>
+  <Loot>
+    <metal>5</metal>
+  </Loot>
   <Promotion disable=""/>
   <VisualActor>
     <Actor>units/western/infantry_crossbowman_e.xml</Actor>

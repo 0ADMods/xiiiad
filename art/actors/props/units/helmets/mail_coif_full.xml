@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant name="Mail-Coif-Full">
-      <mesh>props/helmet/mail_coif_full.dae</mesh>
+      <mesh>props/helmet/mail_coif_full_02.dae</mesh>
     </variant>
   </group>
   <group>
@@ -14,8 +14,11 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_spearman_relax.xml" name="Spearman-Shield-Relax"/>
+    <variant file="biped/base_spearman_shield_relax.xml" name="Spearman-Shield-Relax"/>
+    <variant file="biped/base_spearman_shield_relax_celt.xml" name="Spearman-Shield-Relax-Celt"/>
+    <variant file="biped/base_spearman_shield_ready.xml" name="Spearman-Shield-Ready"/>
     <variant file="biped/base_swordsman_shield_relax.xml" name="Swordsman-Shield-Relax"/>
+    <variant file="biped/base_swordsman_shield_ready.xml" name="Swordsman-Shield-Ready"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -24,6 +27,12 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/formations/testudo_top.xml"/>
+    <variant file="biped/formations/testudo_front.xml"/>
+    <variant file="biped/formations/testudo_front_left.xml"/>
+    <variant file="biped/formations/testudo_front_right.xml"/>
+    <variant file="biped/formations/testudo_left.xml"/>
+    <variant file="biped/formations/testudo_right.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>

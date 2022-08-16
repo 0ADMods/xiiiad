@@ -2,6 +2,7 @@
 <Entity parent="units/west/infantry_pikeman_b">
   <Identity>
     <Rank>Advanced</Rank>
+    <SpecificName>Western Militia Pikeman</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_pikeman_e</Entity>

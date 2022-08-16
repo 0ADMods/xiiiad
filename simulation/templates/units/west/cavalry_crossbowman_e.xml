@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="units/west/cavalry_crossbowman_a">
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <metal op="add">25</metal>
+    </Resources>
+  </Cost>
   <Identity>
     <Rank>Elite</Rank>
+    <SpecificName>Western Mounted Sergeant Crossbowman</SpecificName>
   </Identity>
+  <Loot>
+    <metal>5</metal>
+  </Loot>
   <Promotion disable=""/>
   <VisualActor>
     <Actor>units/western/cavalry_crossbowman_e_m.xml</Actor>

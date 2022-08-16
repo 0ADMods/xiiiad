@@ -7,7 +7,7 @@
       <props>
         <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/kite_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/knightly_01.xml" attachpoint="shield"/>
       </props>
     </variant>
   </group>
@@ -112,10 +112,15 @@
         <texture file="skeletal/western/full_hauberk_01_08.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="0" name="Full-Hauberk-01-09">
-      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+    <variant frequency="1" name="Full-Hauberk-01-09">
       <textures>
         <texture file="skeletal/western/full_hauberk_01_09.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Full-Hauberk-01-10">
+      <mesh>skeletal/new/m_armor_dress.dae</mesh>
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_10.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -129,6 +134,12 @@
         <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
       </props>
     </variant>
+    <variant file="biped/formations/testudo_top.xml"/>
+    <variant file="biped/formations/testudo_front.xml"/>
+    <variant file="biped/formations/testudo_front_left.xml"/>
+    <variant file="biped/formations/testudo_front_right.xml"/>
+    <variant file="biped/formations/testudo_left.xml"/>
+    <variant file="biped/formations/testudo_right.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

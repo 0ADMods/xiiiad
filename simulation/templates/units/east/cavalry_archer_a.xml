@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/east/cavalry_archer_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <SpecificName>Eastern Mounted Archer</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/east/cavalry_archer_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/eastern/cavalry_archer_a_m.xml</Actor>
+  </VisualActor>
+</Entity>

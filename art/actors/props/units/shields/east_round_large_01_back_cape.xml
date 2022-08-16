@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <mesh>props/shield/round_large_boss_back</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="iber-round-shield-01-01">
+      <textures>
+        <texture file="props/shield/iber_round_01_01.png" name="baseTex"/>
+        <texture file="props/shield/iber_round_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="iber-round-shield-01-02">
+      <textures>
+        <texture file="props/shield/iber_round_01_02.png" name="baseTex"/>
+        <texture file="props/shield/iber_round_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="iber-round-shield-01-07">
+      <textures>
+        <texture file="props/shield/iber_round_01_07.png" name="baseTex"/>
+        <texture file="props/shield/iber_round_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="iber-round-shield-01-08">
+      <textures>
+        <texture file="props/shield/iber_round_01_08.png" name="baseTex"/>
+        <texture file="props/shield/iber_round_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

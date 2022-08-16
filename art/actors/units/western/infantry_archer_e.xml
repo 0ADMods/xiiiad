@@ -26,6 +26,11 @@
     </variant>
   </group>
   <group>
+    <variant frequency="1" name="Full-Hauberk-01-04">
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="Full-Hauberk-01-05">
       <textures>
         <texture file="skeletal/western/full_hauberk_01_05.png" name="baseTex"/>

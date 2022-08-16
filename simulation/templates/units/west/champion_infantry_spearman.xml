@@ -3,6 +3,7 @@
   <Identity>
     <SpecificName>Burgher Sergeant Spearman</SpecificName>
     <Icon>units/west_champion_infantry_spearman.png</Icon>
+    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <VisualActor>
     <Actor>units/western/infantry_spearman_c.xml</Actor>

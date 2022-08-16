@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/helmet/aventail_long_01.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="Aventail-Full">
+      <textures>
+        <texture file="props/helmet/aventail_full_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/east/cavalry_archer_merc_a">
+  <Identity>
+    <Rank>Elite</Rank>
+    <SpecificName>Steppe Mercenary Mounted Archer</SpecificName>
+  </Identity>
+  <Identity>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/eastern/cavalry_archer_merc_e_m.xml</Actor>
+  </VisualActor>
+</Entity>

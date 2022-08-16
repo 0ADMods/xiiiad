@@ -2,7 +2,7 @@
 <Entity parent="units/west/infantry_crossbowman_b">
   <Identity>
     <Rank>Advanced</Rank>
-    <SpecificName>Militia Crossbowman</SpecificName>
+    <SpecificName>Western Militia Crossbowman</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_crossbowman_e</Entity>

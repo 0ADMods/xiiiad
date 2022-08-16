@@ -24,4 +24,17 @@
   <VisualActor>
     <Actor>structures/western/civic_centre.xml</Actor>
   </VisualActor>
+  <Upgrade>
+    <Townhall>
+      <Entity>structures/{civ}/town_hall</Entity>
+      <Tooltip>Upgrade to Town Hall.</Tooltip>
+      <RequiredTechnology>phase_city</RequiredTechnology>
+      <Cost>
+        <wood>250</wood>
+        <stone>250</stone>
+      </Cost>
+      <Variant>upgrading</Variant>
+      <Time>100</Time>
+    </Townhall>
+  </Upgrade>
 </Entity>

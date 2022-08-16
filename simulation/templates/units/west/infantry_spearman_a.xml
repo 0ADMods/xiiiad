@@ -2,7 +2,7 @@
 <Entity parent="units/west/infantry_spearman_b">
   <Identity>
     <Rank>Advanced</Rank>
-    <SpecificName>Militia Spearman</SpecificName>
+    <SpecificName>Western Militia Spearman</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_spearman_e</Entity>

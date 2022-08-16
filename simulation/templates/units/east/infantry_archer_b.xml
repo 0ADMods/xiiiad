@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/east/shop
+      structures/east/town_hall
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>east</Civ>
+    <SelectionGroupName>units/east/infantry_archer_b</SelectionGroupName>
+    <SpecificName>Eastern Militia Archer</SpecificName>
+    <Icon>units/east_infantry_archer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/east/infantry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/eastern/infantry_archer_b.xml</Actor>
+  </VisualActor>
+</Entity>

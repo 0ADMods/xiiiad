@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath></SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>west</Civ>
+    <SpecificName>Western Town Hall</SpecificName>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_pikeman_e
+      units/{civ}/infantry_archer_e
+      units/{civ}/cavalry_crossbowman_e
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/western/town_hall.xml</Actor>
+  </VisualActor>
+</Entity>

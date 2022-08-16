@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="structures/western/siege_ram.xml" attachpoint="onager"/>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/east_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Eastern-Arsenal">
+      <mesh>structural/west_arsenal.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_large.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

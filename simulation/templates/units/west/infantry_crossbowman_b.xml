@@ -5,6 +5,7 @@
       structures/west/guild_house
       structures/west/shop
       structures/west/tavern
+      structures/west/town_hall
       structures/west/templar_commandery
       structures/west/wallset_stone_low_curtain_wall
       structures/west/wallset_stone_high_curtain_wall
@@ -13,7 +14,7 @@
   <Identity>
     <Civ>west</Civ>
     <SelectionGroupName>units/west/infantry_crossbowman_b</SelectionGroupName>
-    <SpecificName>Serf Crossbowman</SpecificName>
+    <SpecificName>Western Serf Crossbowman</SpecificName>
     <Icon>units/west_infantry_crossbowman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>

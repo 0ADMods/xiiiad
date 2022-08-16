@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/east_round_large_01.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/capes/rider/cape_long_player.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet-East-Conical-Full">
+      <props>
+        <prop actor="props/units/helmets/east_conical_full_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Coat-Of-Plates-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/coat_of_plates_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/western/full_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-01-04">
+      <textures>
+        <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/scale_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_01.xml" frequency="1" name="Spearman-Relax-Shield-01"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_rome.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

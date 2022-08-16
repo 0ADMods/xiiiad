@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house_big">
+  <Capturable>
+    <CapturePoints op="mul">2</CapturePoints>
+  </Capturable>
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <wood op="add">100</wood>
+      <stone op="add">250</stone>
+      <metal op="add">250</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="14.0" depth="14.0"/>
+  </Footprint>
+  <GarrisonHolder>
+    <Max op="mul">2</Max>
+  </GarrisonHolder>
+  <Health>
+    <Max op="mul">1.5</Max>
+  </Health>
+  <Identity>
+    <Civ>east</Civ>
+    <SpecificName>Eastern City Shop</SpecificName>
+    <Tooltip>Generates resource income.</Tooltip>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
+    <Icon>structures/apartment.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+  </Identity>
+  <Loot>
+    <wood op="add">10</wood>
+    <stone op="add">10</stone>
+    <metal op="add">20</metal>
+  </Loot>
+  <Obstruction>
+    <Static width="12.0" depth="12.0"/>
+  </Obstruction>
+  <ResourceTrickle>
+    <Rates>
+      <metal>1.0</metal>
+    </Rates>
+    <Interval>2000</Interval>
+  </ResourceTrickle>
+  <Population>
+    <Bonus op="add">5</Bonus>
+  </Population>
+  <VisualActor>
+    <Actor>structures/eastern/shop.xml</Actor>
+  </VisualActor>
+  <TerritoryDecay>
+    <DecayRate op="mul">2</DecayRate>
+  </TerritoryDecay>
+</Entity>

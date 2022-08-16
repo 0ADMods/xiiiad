@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/east/infantry_swordsman_b">
+  <Identity>
+    <Rank>Advanced</Rank>
+    <SpecificName>Experienced Eastern Footman</SpecificName>
+  </Identity>
+  <Promotion>
+    <Entity>units/east/infantry_swordsman_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/eastern/infantry_swordsman_a.xml</Actor>
+  </VisualActor>
+</Entity>
