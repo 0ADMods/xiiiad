@@ -3,6 +3,7 @@
   <Builder>
     <Entities datatype="tokens">
       structures/east/shop
+      structures/east/tavern
       structures/east/town_hall
     </Entities>
   </Builder>

@@ -6,14 +6,18 @@
       <mesh>props/helmet/east_bell_01.dae</mesh>
       <textures>
         <texture file="props/helmet/east_bell_helmet_01_01.png" name="baseTex"/>
+        <texture file="props/helmet/east_bell_helmet_01_spec.png" name="specTex"/>
+        <texture file="props/helmet/east_bell_helmet_01_norm.png" name="normTex"/>
       </textures>
     </variant>
     <variant name="mesh-helmet-bell-02">
       <mesh>props/helmet/east_bell_02.dae</mesh>
       <textures>
         <texture file="props/helmet/east_bell_helmet_02_01.png" name="baseTex"/>
+        <texture file="props/helmet/east_bell_helmet_02_spec.png" name="specTex"/>
+        <texture file="props/helmet/east_bell_helmet_02_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

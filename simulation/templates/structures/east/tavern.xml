@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_embassy">
+  <Cost>
+    <Resources>
+      <wood>250</wood>
+      <stone>250</stone>
+      <metal>250</metal>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="18.0" depth="22.0"/>
+    <Height>11.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1200</Max>
+  </Health>
+  <Identity>
+    <Civ>east</Civ>
+    <SpecificName>Eastern Tavern</SpecificName>
+    <Tooltip>Recruit Mercenaries.</Tooltip>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <Icon>structures/embassy_celtic.png</Icon>
+  </Identity>
+  <Loot>
+    <wood>40</wood>
+  </Loot>
+  <Obstruction>
+    <Static width="16.0" depth="20.0"/>
+  </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_swordsman_merc_b
+      units/{civ}/infantry_archer_merc_b
+      units/{civ}/cavalry_archer_merc_b
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/eastern/tavern.xml</Actor>
+  </VisualActor>
+</Entity>

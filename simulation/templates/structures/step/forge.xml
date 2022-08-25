@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_forge">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
+  <Footprint replace="">
+    <Circle radius="12.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>step</Civ>
+    <GenericName>Steppe Forge</GenericName>
+  </Identity>
+  <Obstruction>
+    <Static width="20.0" depth="20.0"/>
+  </Obstruction>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}/support_wagon
+      units/{civ}/siege_ram
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <BlacksmithPacked>
+      <Entity>structures/step/forge_packed</Entity>
+      <Time>45</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </BlacksmithPacked>
+  </Upgrade>
+  <VisualActor>
+    <ConstructionPreview disable=""/>
+    <Actor>structures/steppe/forge.xml</Actor>
+  </VisualActor>
+</Entity>

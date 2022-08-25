@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>step</Civ>
+    <GenericName></GenericName>
+    <SpecificName>Steppe Tribal Elder</SpecificName>
+    <Icon>units/step_support_healer.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/step/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/steppe/healer.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,12 @@
+{
+	"genericName": "Pastoralism",
+	"autoResearch": true,
+	"description": "A form of food sustenance focused on the raise and consumption of animal produce practiced by nodamic societies.",
+	"requirements": { "civ": "step" },
+	"icon": "nisean_war_horses.png",
+	"tooltip": "Domestic Animals −50% cost and breeding time.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.5 }
+	],
+	"affects": ["Domestic"]
+}

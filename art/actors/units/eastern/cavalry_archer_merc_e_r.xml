@@ -19,17 +19,35 @@
         <prop actor="props/units/helmets/aventail_helmet_long.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Helmet-East-Conical-Aventail-Full">
+    <variant frequency="1" name="Helmet-East-Conical-Spectacle">
       <props>
-        <prop actor="props/units/helmets/east_conical_full_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/east_conical_spectacle_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Step-Bell-Mask">
+      <props>
+        <prop actor="props/units/helmets/step_bell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/steppe_kipchak_helmet_mask.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Coat-Of-Plates-Hauberk-01-01">
+    <variant frequency="1" name="Hauberk-01-01">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <textures>
-        <texture file="skeletal/eastern/coat_of_plates_hauberk_01_01.png" name="baseTex"/>
+        <texture file="skeletal/steppe/hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-Vest-Leather-01-01">
+      <textures>
+        <texture file="skeletal/steppe/hauberk_vest_leather_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-Vest-Leather-01-02">
+      <textures>
+        <texture file="skeletal/steppe/hauberk_vest_leather_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Lamellar-01-01">
@@ -38,14 +56,24 @@
         <texture file="skeletal/eastern/lamellar_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Hauberk-01-04">
-      <textures>
-        <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="Lamellar-Hauberk-01-01">
       <textures>
         <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale-01-01">
+      <textures>
+        <texture file="skeletal/steppe/scale_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale-01-02">
+      <textures>
+        <texture file="skeletal/steppe/scale_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Scale-01-03">
+      <textures>
+        <texture file="skeletal/steppe/scale_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

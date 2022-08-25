@@ -24,14 +24,14 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Coif-Open">
-      <props>
-        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
     <variant frequency="1" name="Helmet-Cervelliere">
       <props>
         <prop actor="props/units/helmets/cervelliere_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Coif-Open">
+      <props>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Conical-Nasal">

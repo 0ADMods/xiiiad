@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="merc_inf|template_unit_infantry_ranged_archer">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/east/shop
+      structures/east/tavern
+      structures/east/town_hall
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>east</Civ>
+    <SelectionGroupName>units/east/infantry_archer_merc_b</SelectionGroupName>
+    <SpecificName>Steppe Mercenary Archer</SpecificName>
+    <Icon>units/east_infantry_archer_mercenary.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/east/infantry_archer_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/eastern/infantry_archer_merc_b.xml</Actor>
+  </VisualActor>
+</Entity>

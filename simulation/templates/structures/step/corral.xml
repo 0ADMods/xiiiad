@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_resource_corral">
+  <Cost>
+    <BuildTime op="mul">1.5</BuildTime>
+    <Resources>
+      <wood>250</wood>
+    </Resources>
+  </Cost>
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="15.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>step</Civ>
+    <GenericName>Steppe Corral</GenericName>
+    <Icon>structures/stable_01.png</Icon>
+  </Identity>
+  <Obstruction>
+    <Static width="26.0" depth="26.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <ResourceTrickle>
+    <Rates>
+      <food>25.0</food>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      unlock_champion_cavalry
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      gaia/fauna_cattle_zebu_trainable
+      units/{civ}/cavalry_spearman_b
+      units/{civ}/cavalry_archer_b
+      units/{civ}/champion_cavalry_archer
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Pack>
+      <Entity>structures/step/corral_packed</Entity>
+      <Time>25</Time>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/steppe/corral.xml</Actor>
+  </VisualActor>
+</Entity>

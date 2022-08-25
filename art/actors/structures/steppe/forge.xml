@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="props/structures/iberians/blacksmith_wheel.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/spart_forge.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Steppe-Forge-01">
+      <mesh>structural/step_forge_01.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

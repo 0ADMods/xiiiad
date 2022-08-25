@@ -12,14 +12,14 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Coif-Open">
-      <props>
-        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
     <variant frequency="1" name="Helmet-Cervelliere">
       <props>
         <prop actor="props/units/helmets/cervelliere_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Coif-Open">
+      <props>
+        <prop actor="props/units/helmets/headband_generic.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-Conical-Nasal">
@@ -37,15 +37,15 @@
         <prop actor="props/units/helmets/flattop_nasal_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
-    <variant frequency="1" name="Helmet-Kettle">
-      <props>
-        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
     <variant frequency="1" name="Helmet-Great">
       <props>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/great_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-Kettle">
+      <props>
+        <prop actor="props/units/helmets/kettle_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>

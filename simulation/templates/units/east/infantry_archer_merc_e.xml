@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/east/infantry_archer_merc_a">
+  <Identity>
+    <Rank>Elite</Rank>
+    <SpecificName>Steppe Mercenary Archer</SpecificName>
+  </Identity>
+  <Loot>
+    <metal>5</metal>
+  </Loot>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/eastern/infantry_archer_merc_e.xml</Actor>
+  </VisualActor>
+</Entity>

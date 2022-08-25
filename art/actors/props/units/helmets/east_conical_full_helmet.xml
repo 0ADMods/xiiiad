@@ -2,16 +2,22 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="mesh-helmet-conical-nasal-01">
+    <variant name="helmet-east-conical-01">
       <mesh>props/helmet/east_conical_01.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="helmet-east-conical-01">
       <textures>
         <texture file="props/helmet/east_conical_helmet_01_01.png" name="baseTex"/>
+        <texture file="props/helmet/east_conical_helmet_01_spec.png" name="specTex"/>
+        <texture file="props/helmet/east_conical_helmet_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant name="helmet-east-conical-yasenovo-01">
+      <mesh>props/helmet/east_conical_yasenovo_01.dae</mesh>
+      <textures>
+        <texture file="props/helmet/east_conical_yasenovo_helmet_01_01.png" name="baseTex"/>
+        <texture file="props/helmet/east_conical_yasenovo_helmet_01_spec.png" name="specTex"/>
+        <texture file="props/helmet/east_conical_yasenovo_helmet_01_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

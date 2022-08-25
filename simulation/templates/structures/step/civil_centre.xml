@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Attack disable=""/>
+  <Footprint replace="">
+    <Circle radius="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>step</Civ>
+    <SpecificName>Khan's Hall</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Position>
+    <Anchor>pitch</Anchor>
+    <TurnRate>0.0001</TurnRate>
+  </Position>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      attack_soldiers_will
+      steppe_archery_tradition
+      pastoralism
+    </Technologies>
+  </Researcher>
+  <TerritoryDecay disable=""/>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_archer_b
+      units/{civ}/infantry_spearman_b
+      units/{civ}/cavalry_spearman_b
+      units/{civ}/champion_cavalry_archer
+    </Entities>
+  </Trainer>
+  <Upgrade>
+    <Unpack>
+      <Entity>structures/step/civil_centre_packed</Entity>
+      <Time>45</Time>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Unpack>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/steppe/civic_centre.xml</Actor>
+  </VisualActor>
+</Entity>

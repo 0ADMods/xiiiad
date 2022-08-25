@@ -4,7 +4,7 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/cavalry_archer_merc_b</SelectionGroupName>
     <SpecificName>Steppe Mercenary Mounted Archer</SpecificName>
-    <Icon>units/east_cavalry_archer_merc.png</Icon>
+    <Icon>units/east_cavalry_archer_mercenary.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/cavalry_archer_merc_a</Entity>

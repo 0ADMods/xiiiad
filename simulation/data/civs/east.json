@@ -48,9 +48,12 @@
 		}
 	],
 	"AINames": [
+		"The Ban",
 		"The Boyar",
 		"The Druzhina",
 		"The Knyaz",
+		"The Namestnik",
+		"The Posadnik",
 		"The Prince",
 		"The Voivode"
 

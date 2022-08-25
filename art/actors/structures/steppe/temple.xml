@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="props/structures/decals/spart_forge.xml" attachpoint="root"/>
+        <prop actor="geology/stone_india_small.xml" attachpoint="stall_01"/>
+        <prop actor="geology/stone_desert_med.xml" attachpoint="stall_02"/>
+        <prop actor="geology/stone_india_small.xml" attachpoint="stall_03"/>
+        <prop actor="geology/stone_desert_med.xml" attachpoint="stall_04"/>
+        <prop actor="geology/stone_india_small.xml" attachpoint="stall_05"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Steppe-Market-01">
+      <mesh>structural/step_market_01.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

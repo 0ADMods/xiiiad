@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="units/west/infantry_axeman_merc_a">
+  <Identity>
+    <Rank>Elite</Rank>
+    <SpecificName>Western Mercenary Footman</SpecificName>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/western/infantry_axeman_merc_e.xml</Actor>
+  </VisualActor>
+</Entity>

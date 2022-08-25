@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/east_round_large_01.xml" attachpoint="shield"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet-Step-Bell-Mask">
+      <props>
+        <prop actor="props/units/helmets/step_bell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/steppe_kipchak_helmet_mask.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-East-Conical-Full">
+      <props>
+        <prop actor="props/units/helmets/east_conical_full_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-East-Conical-Spectacle">
+      <props>
+        <prop actor="props/units/helmets/east_conical_spectacle_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="Sabre-Sword">
+      <props>
+        <prop actor="props/units/weapons/steppe_sabre_sword_01.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="One-Hand-Axe">
+      <props>
+        <prop actor="props/units/weapons/one_hand_axe.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Full-Scale-01-01">
+      <textures>
+        <texture file="skeletal/eastern/full_scale_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Hauberk-01-01">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/steppe/hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_relax.xml" frequency="1" name="Swordsman-Shield-Relax"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml">
+      <props>
+        <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant file="biped/formations/testudo_top.xml"/>
+    <variant file="biped/formations/testudo_front.xml"/>
+    <variant file="biped/formations/testudo_front_left.xml"/>
+    <variant file="biped/formations/testudo_front_right.xml"/>
+    <variant file="biped/formations/testudo_left.xml"/>
+    <variant file="biped/formations/testudo_right.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

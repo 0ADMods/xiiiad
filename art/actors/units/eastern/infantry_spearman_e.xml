@@ -18,9 +18,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-East-Bell">
+    <variant frequency="1" name="Helmet-Byza-Conical-Nasal">
       <props>
-        <prop actor="props/units/helmets/east_bell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_conical_nasal_helmet.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/aventail_helmet_long.xml" attachpoint="helmet"/>
       </props>
     </variant>

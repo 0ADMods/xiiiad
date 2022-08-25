@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Steppe-House-01-01">
+      <mesh>structural/step_house_01_01.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/step_struct_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Steppe-House-01-02">
+      <mesh>structural/step_house_01_02.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/step_struct_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Steppe-House-01-03">
+      <mesh>structural/step_house_01_03.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/spart_3x3.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="structural/step_struct_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Steppe-House-02-01">
+      <mesh>structural/step_house_02_01.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Steppe-House-02-02">
+      <mesh>structural/step_house_02_02.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Steppe-House-02-03">
+      <mesh>structural/step_house_02_03.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="0" name="Steppe-House-02-04">
+      <mesh>structural/step_house_02_04.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

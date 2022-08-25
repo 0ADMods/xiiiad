@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="helmet-byza-conical-nasal-01-01">
+      <mesh>props/helmet/byza_nasal_01.dae</mesh>
+      <textures>
+        <texture file="props/helmet/byza_conical_nasal_helmet_01_01.png" name="baseTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_01_spec.png" name="specTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant name="helmet-byza-conical-nasal-01-02">
+      <mesh>props/helmet/byza_nasal_01.dae</mesh>
+      <textures>
+        <texture file="props/helmet/byza_conical_nasal_helmet_01_02.png" name="baseTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_01_spec.png" name="specTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant name="helmet-byza-conical-nasal-02-01">
+      <mesh>props/helmet/byza_nasal_02.dae</mesh>
+      <textures>
+        <texture file="props/helmet/byza_conical_nasal_helmet_02_01.png" name="baseTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_02_spec.png" name="specTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+    <variant name="helmet-byza-conical-nasal-02-02">
+      <mesh>props/helmet/byza_nasal_02.dae</mesh>
+      <textures>
+        <texture file="props/helmet/byza_conical_nasal_helmet_02_02.png" name="baseTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_02_spec.png" name="specTex"/>
+        <texture file="props/helmet/byza_conical_nasal_helmet_02_norm.png" name="normTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

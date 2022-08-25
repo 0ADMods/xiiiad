@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_axeman">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/west/guild_house
+      structures/west/shop
+      structures/west/tavern
+      structures/west/town_hall
+      structures/west/templar_commandery
+      structures/west/wallset_stone_low_curtain_wall
+      structures/west/wallset_stone_high_curtain_wall
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>west</Civ>
+    <SpecificName>Western Mercenary Footman</SpecificName>
+    <SelectionGroupName>units/west/infantry_axeman_merc_b</SelectionGroupName>
+    <Icon>units/west_infantry_axeman_mercenary.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/west/infantry_axeman_merc_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/western/infantry_axeman_merc_b.xml</Actor>
+  </VisualActor>
+</Entity>

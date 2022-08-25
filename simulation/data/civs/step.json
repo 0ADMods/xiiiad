@@ -1,0 +1,64 @@
+{
+	"Code": "step",
+	"Culture": "step",
+	"Music": [],
+	"CivBonuses": [],
+	"Structures": [],
+	"StartEntities": [
+		{
+			"Template": "structures/step/civil_centre"
+		},
+		{
+			"Template": "units/step/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/step/infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/step/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/step/cavalry_archer_b"
+		},
+		{
+			"Template": "gaia/fauna_cattle_zebu_trainable",
+			"Count": 4
+		},
+		{
+			"Template": "units/step/support_wagon"
+		}
+	],
+	"AINames": [
+		"The Khan",
+		"The General",
+		"The Great Khan"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_support_female_citizen": "units/step/support_female_citizen",
+		"skirmish/units/default_cavalry": "units/step/cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/step/infantry_archer_b",
+		"skirmish/structures/default_corral": "structures/step/corral",
+		"skirmish/structures/default_defense_tower": "",
+		"skirmish/structures/default_fortress": "",
+		"skirmish/structures/default_house_5": "structures/step/house_unpacked",
+		"skirmish/structures/default_house_10": "",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": "",
+		"skirmish/structures/default_field": "",
+		"skirmish/structures/default_farmstead": "structures/step/market",
+		"skirmish/structures/default_market": "structures/step/market",
+		"skirmish/structures/default_storehouse": "structures/step/storehouse",
+		"skirmish/structures/default_dock": "",
+		"skirmish/units/special_starting_unit": "units/step/support_wagon",
+		"skirmish/structures/default_civil_centre": "structures/step/civil_centre",
+		"skirmish/structures/default_barracks": "structures/step/corral",
+		"skirmish/structures/default_temple": "structures/step/temple"
+	},
+	"SelectableInGameSetup": true
+}

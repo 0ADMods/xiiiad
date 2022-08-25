@@ -9,7 +9,7 @@
   <group>
     <variant name="Aventail-Full">
       <textures>
-        <texture file="props/helmet/aventail_full_01.png" name="baseTex"/>
+        <texture file="props/helmet/aventail_full_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

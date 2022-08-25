@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/bow_long_indian.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/east_round_large_01_back_cape.xml" attachpoint="back"/>
+        <prop actor="props/units/quiver_back.xml" attachpoint="back"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet-Step-Bell-Mask">
+      <props>
+        <prop actor="props/units/helmets/step_bell_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/steppe_kipchak_helmet_mask.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-East-Conical-Full">
+      <props>
+        <prop actor="props/units/helmets/east_conical_full_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Helmet-East-Conical-Spectacle">
+      <props>
+        <prop actor="props/units/helmets/east_conical_spectacle_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_full.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="Full-Scale-01-01">
+      <textures>
+        <texture file="skeletal/eastern/full_scale_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-01-01">
+      <textures>
+        <texture file="skeletal/steppe/lamellar_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-01-02">
+      <textures>
+        <texture file="skeletal/steppe/lamellar_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-01-03">
+      <textures>
+        <texture file="skeletal/steppe/lamellar_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_archer_fast_back.xml" frequency="1" name="Archer-Fast-Back"/>
+    <variant file="biped/rider/cavalry/attack_ranged_archer_back.xml"/>
+    <variant file="biped/rider/death_ranged.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="base">
+      <props>
+        <prop actor="props/structures/gauls/stable_hay_stack.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9_round.xml" attachpoint="root"/>
+        <prop actor="fauna/horse_persian.xml" attachpoint="animal_01"/>
+        <prop actor="fauna/cow.xml" attachpoint="animal_02"/>
+        <prop actor="fauna/zebu.xml" attachpoint="animal_03"/>
+        <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="hay_01"/>
+        <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="hay_02"/>
+        <prop actor="props/special/eyecandy/hay_a.xml" attachpoint="hay_03"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Steppe-Corral-01">
+      <mesh>structural/step_corral_01.dae</mesh>
+      <textures>
+        <texture file="structural/step_struct_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant file="structures/destruction_small.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_storehouse">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
+  <Footprint replace="">
+    <Circle radius="7.0"/>
+    <Height>10.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>step</Civ>
+  </Identity>
+  <TerritoryDecay disable=""/>
+  <Upgrade>
+    <Pack>
+      <Entity>units/step/support_wagon</Entity>
+      <Time>25</Time>
+      <CheckPlacementRestrictions/>
+      <RequiredTechnology>nomadism</RequiredTechnology>
+    </Pack>
+  </Upgrade>
+  <VisualActor>
+    <Actor>structures/steppe/storehouse.xml</Actor>
+  </VisualActor>
+</Entity>

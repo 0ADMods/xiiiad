@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>step</Civ>
+    <GenericName>Steppe People</GenericName>
+    <History>13th Eurasian Steppe People.</History>
+    <Icon>emblems/emblem_step.png</Icon>
+  </Identity>
+  <Player>
+    <Formations datatype="tokens">
+		special/formations/flank
+		special/formations/skirmish
+    </Formations>
+  </Player>
+</Entity>

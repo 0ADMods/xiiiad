@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/steppe_spear.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Helmet-East-Conical-Aventail">
+      <props>
+        <prop actor="props/units/helmets/east_conical_full_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_long.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="Steppe-Pelt-Cap-Aventail">
+      <props>
+        <prop actor="props/units/helmets/east_fur_cap.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/aventail_helmet_long.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Full-Scale-01-01">
+      <textures>
+        <texture file="skeletal/eastern/full_scale_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="Hauberk-01-01">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <textures>
+        <texture file="skeletal/steppe/hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/cavalry/base_spearman_relax_shield_aspis.xml" frequency="1" name="Spearman-Relax-Shield-Aspis"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_rome.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_aspis.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>
