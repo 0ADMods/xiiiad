@@ -21,6 +21,16 @@
         <texture file="props/shield/kite_boss_01_02.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Shield-Kite-Boss-01-03">
+      <textures>
+        <texture file="props/shield/kite_boss_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Shield-Kite-Boss-01-04">
+      <textures>
+        <texture file="props/shield/kite_boss_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <material>player_trans_parallax_spec.xml</material>
 </actor>

@@ -5,10 +5,10 @@
     <variant name="Base">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/mail_coif_open_cavalry_spearman.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear_long.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/kite_boss_small_01.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/capes/rider/cape_long_player.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
@@ -42,9 +42,29 @@
         <texture file="skeletal/western/full_hauberk_01_01.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Full-Hauberk-Padded-01-01">
+      <textures>
+        <texture file="skeletal/eastern/full_hauberk_padded_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-Padded-01-02">
+      <textures>
+        <texture file="skeletal/eastern/full_hauberk_padded_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="Lamellar-01-01">
       <textures>
         <texture file="skeletal/eastern/lamellar_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Scale-Hauberk-01-01">

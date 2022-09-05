@@ -33,6 +33,11 @@
         <texture file="skeletal/eastern/full_scale_01_01.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Lamellar-Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
   </group>
   <group>
     <variant file="biped/rider/cavalry/base_archer_fast_back.xml" frequency="1" name="Archer-Fast-Back"/>

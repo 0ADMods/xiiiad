@@ -6,9 +6,16 @@
       <mesh>skeletal/horse_lusitano.dae</mesh>
       <props>
         <prop actor="units/eastern/cavalry_spearman_c_r.xml" attachpoint="rider"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="caparison-chain">
+      <props>
         <prop actor="props/horse/cav_blanket_cloth.xml" attachpoint="root"/>
+        <prop actor="props/horse/caparison_body_chain.xml" attachpoint="root"/>
+        <prop actor="props/horse/caparison_head_chain.xml" attachpoint="head"/>
         <prop actor="props/horse/cav_rein_leather.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_peytral_pers_iron.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

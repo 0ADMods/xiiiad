@@ -7,13 +7,14 @@
       <props>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/shields/kite_boss_small_01.xml" attachpoint="shield"/>
+        <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Byza-Conical-Nasal">
+    <variant frequency="1" name="Helmet-Byza-Conical-Nasal-Bronze">
       <props>
-        <prop actor="props/units/helmets/byza_conical_nasal_helmet.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/byza_conical_nasal_helmet_bronze.xml" attachpoint="helmet"/>
         <prop actor="props/units/helmets/aventail_helmet_long.xml" attachpoint="helmet"/>
       </props>
     </variant>
@@ -58,15 +59,14 @@
         <texture file="skeletal/eastern/coat_of_plates_padded_cloth_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Lamellar-01-01">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
-      <textures>
-        <texture file="skeletal/eastern/lamellar_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
     <variant frequency="1" name="Full-Hauberk-01-01">
       <textures>
         <texture file="skeletal/western/full_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/hauberk_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Hauberk-01-04">
@@ -74,9 +74,20 @@
         <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Lamellar-01-01">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <textures>
+        <texture file="skeletal/eastern/lamellar_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="Lamellar-Hauberk-01-01">
       <textures>
         <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Lamellar-Hauberk-01-02">
+      <textures>
+        <texture file="skeletal/eastern/lamellar_hauberk_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Scale-Hauberk-01-01">
@@ -93,6 +104,7 @@
     <variant file="biped/death_infantry.xml">
       <props>
         <prop actor="props/units/helmets/mail_coif_open.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cape_long_player.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/formations/testudo_top.xml"/>

@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
         <prop actor="props/units/shields/east_round_large_01.xml" attachpoint="shield"/>
@@ -18,12 +18,6 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Helmet-Byza-Conical-Nasal">
-      <props>
-        <prop actor="props/units/helmets/byza_conical_nasal_helmet.xml" attachpoint="helmet"/>
-        <prop actor="props/units/helmets/aventail_helmet_long.xml" attachpoint="helmet"/>
-      </props>
-    </variant>
     <variant frequency="1" name="Helmet-East-Conical-Full">
       <props>
         <prop actor="props/units/helmets/east_conical_full_helmet.xml" attachpoint="helmet"/>
@@ -32,14 +26,9 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Coat-Of-Plates-Hauberk-01-01">
+    <variant frequency="1" name="Hauberk-01-01">
       <textures>
-        <texture file="skeletal/eastern/coat_of_plates_hauberk_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Full-Hauberk-01-01">
-      <textures>
-        <texture file="skeletal/western/full_hauberk_01_01.png" name="baseTex"/>
+        <texture file="skeletal/eastern/hauberk_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Hauberk-01-04">
@@ -47,14 +36,10 @@
         <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Lamellar-Hauberk-01-01">
+    <variant frequency="3" name="Lamellar-01-01">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/eastern/lamellar_hauberk_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Scale-Hauberk-01-01">
-      <textures>
-        <texture file="skeletal/eastern/scale_hauberk_01_01.png" name="baseTex"/>
+        <texture file="skeletal/eastern/lamellar_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

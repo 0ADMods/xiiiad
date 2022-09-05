@@ -10,6 +10,14 @@
         <texture file="props/helmet/east_conical_helmet_01_norm.png" name="normTex"/>
       </textures>
     </variant>
+    <variant name="helmet-east-conical-osbagatar-01">
+      <mesh>props/helmet/east_conical_osbagatar_01.dae</mesh>
+      <textures>
+        <texture file="props/helmet/east_conical_osbagatar_helmet_01_01.png" name="baseTex"/>
+        <texture file="props/helmet/east_conical_osbagatar_helmet_01_spec.png" name="specTex"/>
+        <texture file="props/helmet/east_conical_osbagatar_helmet_01_norm.png" name="normTex"/>
+      </textures>
+    </variant>
     <variant name="helmet-east-conical-yasenovo-01">
       <mesh>props/helmet/east_conical_yasenovo_01.dae</mesh>
       <textures>

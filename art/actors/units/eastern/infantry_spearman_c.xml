@@ -48,6 +48,21 @@
         <texture file="skeletal/eastern/coat_of_plates_padded_cloth_01_01.png" name="baseTex"/>
       </textures>
     </variant>
+    <variant frequency="1" name="Full-Hauberk-Padded-01-01">
+      <textures>
+        <texture file="skeletal/eastern/full_hauberk_padded_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Full-Hauberk-Padded-01-02">
+      <textures>
+        <texture file="skeletal/eastern/full_hauberk_padded_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Hauberk-01-01">
+      <textures>
+        <texture file="skeletal/eastern/hauberk_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
     <variant frequency="1" name="Hauberk-01-04">
       <textures>
         <texture file="skeletal/western/hauberk_01_04.png" name="baseTex"/>

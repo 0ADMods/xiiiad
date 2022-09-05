@@ -5,8 +5,7 @@
     <variant file="biped/base_healer_female.xml" name="Healer-Female">
       <mesh>skeletal/new/m_dress.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/leather_coif_open_healer.xml" attachpoint="root"/>
-        <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/trader_staff.xml" attachpoint="weapon_L"/>
       </props>
     </variant>
@@ -14,17 +13,7 @@
   <group>
     <variant frequency="1" name="Tunic-Clergy-01-01">
       <textures>
-        <texture file="skeletal/western/tunic_clergy_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Tunic-Clergy-01-02">
-      <textures>
-        <texture file="skeletal/western/tunic_clergy_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Tunic-Clergy-01-03">
-      <textures>
-        <texture file="skeletal/western/tunic_clergy_01_03.png" name="baseTex"/>
+        <texture file="skeletal/eastern/tunic_clergy_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -33,11 +22,7 @@
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/helmets/leather_coif_open_healer.xml" attachpoint="root"/>
-      </props>
-    </variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>
