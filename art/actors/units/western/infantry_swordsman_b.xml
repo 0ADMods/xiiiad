@@ -33,6 +33,8 @@
     <variant frequency="1" name="Tunic-01-02">
       <textures>
         <texture file="skeletal/western/tunic_01_02.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -82,5 +84,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>objectcolor.xml</material>
+  <material>objectcolor_norm_spec.xml</material>
 </actor>

@@ -16,6 +16,8 @@
     <variant frequency="1" name="east-fur-cap-01">
       <textures>
         <texture file="props/helmet/east_fur_cap_01_01.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -30,5 +32,5 @@
       <color>77 50 34</color>
     </variant>
   </group>
-  <material>objectcolor.xml</material>
+  <material>objectcolor_norm_spec.xml</material>
 </actor>

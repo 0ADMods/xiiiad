@@ -5,6 +5,8 @@
     <variant frequency="1" name="helmet-flattop-helmet">
       <textures>
         <texture file="props/helmet/flattop_helmet.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -16,5 +18,5 @@
       <mesh>props/helmet/flattop_02.dae</mesh>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -80,7 +80,7 @@
     <variant file="biped/carry_metal.xml"/>
     <variant file="biped/approach_tree.xml"/>
     <variant file="biped/approach_grain.xml"/>
-    <variant file="biped/approach_rice.xml"/>
+    <variant file="biped/approach_grain.xml"/>
     <variant file="biped/approach_fruit.xml"/>
     <variant file="biped/approach_meat.xml"/>
     <variant file="biped/approach_rock.xml"/>
@@ -109,5 +109,13 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
