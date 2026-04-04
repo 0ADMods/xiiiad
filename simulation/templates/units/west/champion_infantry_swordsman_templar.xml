@@ -11,8 +11,10 @@
   <Identity>
     <Civ>west</Civ>
     <SpecificName>Knight Templar</SpecificName>
-    <Icon>units/west_champion_infantry_swordsman_templar.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Icon>units/west/champion_infantry_swordsman_templar.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/templar/infantry_swordsman_c.xml</Actor>

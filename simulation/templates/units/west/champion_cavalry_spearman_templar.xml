@@ -11,7 +11,7 @@
   <Identity>
     <Civ>west</Civ>
     <SpecificName>Mounted Knight Templar</SpecificName>
-    <Icon>units/west_champion_cavalry_spearman_templar.png</Icon>
+    <Icon>units/west/champion_cavalry_spearman_templar.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/templar/cavalry_spearman_c_m.xml</Actor>

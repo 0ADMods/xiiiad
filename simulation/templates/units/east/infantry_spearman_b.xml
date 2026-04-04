@@ -11,7 +11,7 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Eastern Militia Spearman</SpecificName>
-    <Icon>units/east_infantry_spearman.png</Icon>
+    <Icon>units/east/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/infantry_spearman_a</Entity>

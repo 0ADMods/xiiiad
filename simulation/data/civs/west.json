@@ -1,75 +1,73 @@
 {
-	"Code": "west",
-	"Culture": "west",
-	"Music": [
-		{
-			"File": "Celtic_Pride.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Cisalpine_Gaul.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Harvest_Festival.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Water's_Edge.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Sunrise.ogg",
-			"Type": "peace"
-		}
-	],
-	"CivBonuses": [],
-	"WallSets": [
-		"structures/west/wallset_stone",
-		"structures/west/wallset_stone_low_curtain_wall",
-		"structures/west/wallset_stone_high_curtain_wall"
-	],
-	"StartEntities": [
-		{
-			"Template": "structures/west/civil_centre"
-		},
-		{
-			"Template": "units/west/support_female_citizen",
-			"Count": 4
-		},
-		{
-			"Template": "units/west/infantry_spearman_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/west/infantry_archer_b",
-			"Count": 2
-		},
-		{
-			"Template": "units/west/cavalry_spearman_b"
-		},
-		{
-			"Template": "units/west/support_healer_b"
-		}
-	],
-	"AINames": [
-		"The Bailiff",
-		"The Baron",
-		"The Bishop",
-		"The Constable",
-		"The Count",
-		"The Duke",
-		"The Earl",
-		"The Lord",
-		"The Marcher Lord",
-		"The Marshal",
-		"The Prince"
-
-	],
-	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/west/cavalry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/west/infantry_archer_b",
-		"skirmish/structures/default_house_5": "structures/{civ}/house"
-	},
-	"SelectableInGameSetup": true
+    "Code": "west",
+    "Culture": "west",
+    "Music": [
+        {
+            "File": "Celtic_Pride.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Cisalpine_Gaul.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Harvest_Festival.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Water's_Edge.ogg",
+            "Type": "peace"
+        },
+        {
+            "File": "Sunrise.ogg",
+            "Type": "peace"
+        }
+    ],
+    "CivBonuses": [],
+    "WallSets": [
+        "structures/west/wallset_stone_low_curtain_wall",
+        "structures/west/wallset_stone_high_curtain_wall"
+    ],
+    "StartEntities": [
+        {
+            "Template": "structures/west/civil_centre"
+        },
+        {
+            "Template": "units/west/support_civilian",
+            "Count": 4
+        },
+        {
+            "Template": "units/west/infantry_spearman_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/west/infantry_archer_b",
+            "Count": 2
+        },
+        {
+            "Template": "units/west/cavalry_spearman_b"
+        },
+        {
+            "Template": "units/west/support_healer_b"
+        }
+    ],
+    "AINames": [
+        "The Bailiff",
+        "The Baron",
+        "The Bishop",
+        "The Constable",
+        "The Count",
+        "The Duke",
+        "The Earl",
+        "The Lord",
+        "The Marcher Lord",
+        "The Marshal",
+        "The Prince"
+    ],
+    "SkirmishReplacements": {
+        "skirmish/units/default_cavalry": "units/west/cavalry_spearman_b",
+        "skirmish/units/default_infantry_ranged_b": "units/west/infantry_archer_b",
+        "skirmish/structures/default_house_5": "structures/{civ}/house"
+    },
+    "SelectableInGameSetup": true
 }

@@ -15,7 +15,7 @@
     <Civ>west</Civ>
     <SelectionGroupName>units/west/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Western Serf Spearman</SpecificName>
-    <Icon>units/west_infantry_spearman.png</Icon>
+    <Icon>units/west/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_spearman_a</Entity>

@@ -5,12 +5,14 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath></SpawnEntityOnDeath>
+    <SpawnEntityOnDeath/>
   </Health>
   <Identity>
     <Civ>west</Civ>
     <SpecificName>Western Town Hall</SpecificName>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="25.0" depth="25.0"/>

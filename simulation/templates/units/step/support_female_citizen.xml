@@ -51,8 +51,8 @@
   <Identity>
     <Civ>step</Civ>
     <SpecificName>Steppe Woman</SpecificName>
-    <Icon>units/step_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/step/support_female_citizen</SelectionGroupName>
+    <Icon>units/step/support_civilian.png</Icon>
+    <SelectionGroupName>units/step/support_civilian</SelectionGroupName>
     <Phenotype>female</Phenotype>
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>

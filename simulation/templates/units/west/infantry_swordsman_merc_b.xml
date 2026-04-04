@@ -15,8 +15,10 @@
     <Civ>west</Civ>
     <SpecificName>Western Mercenary Footman</SpecificName>
     <SelectionGroupName>units/west/infantry_swordsman_merc_b</SelectionGroupName>
-    <Icon>units/west_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/west/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_swordsman_merc_a</Entity>

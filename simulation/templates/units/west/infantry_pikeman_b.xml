@@ -15,8 +15,10 @@
     <Civ>west</Civ>
     <SelectionGroupName>units/west/infantry_pikeman_b</SelectionGroupName>
     <SpecificName>Western Serf Pikeman</SpecificName>
-    <Icon>units/west_infantry_pikeman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/west/infantry_pikeman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_pikeman_a</Entity>

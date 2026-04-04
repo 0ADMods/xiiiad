@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath></SpawnEntityOnDeath>
+    <SpawnEntityOnDeath/>
   </Health>
   <Identity>
     <Civ>west</Civ>
@@ -21,20 +21,22 @@
       units/{civ}/cavalry_spearman_b
     </Entities>
   </Trainer>
-  <VisualActor>
-    <Actor>structures/western/civic_centre.xml</Actor>
-  </VisualActor>
   <Upgrade>
     <Townhall>
       <Entity>structures/{civ}/town_hall</Entity>
       <Tooltip>Upgrade to Town Hall.</Tooltip>
-      <RequiredTechnology>phase_city</RequiredTechnology>
       <Cost>
         <wood>250</wood>
         <stone>250</stone>
       </Cost>
       <Variant>upgrading</Variant>
       <Time>100</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_city</Techs>
+      </Requirements>
     </Townhall>
   </Upgrade>
+  <VisualActor>
+    <Actor>structures/western/civic_centre.xml</Actor>
+  </VisualActor>
 </Entity>

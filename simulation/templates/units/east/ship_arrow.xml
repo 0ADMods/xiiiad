@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_ship_trireme">
+<Entity parent="template_unit_ship_warship_arrow">
   <Cost>
     <BuildTime>40</BuildTime>
   </Cost>
@@ -14,9 +14,9 @@
     <Max op="add">200</Max>
   </Health>
   <Identity>
-    <Civ>west</Civ>
-    <SpecificName>Western Ship</SpecificName>
-    <Icon>units/celt_ship_trireme.png</Icon>
+    <Civ>east</Civ>
+    <SpecificName>Eastern Ship</SpecificName>
+    <Icon>units/celt/ship_arrow.png</Icon>
   </Identity>
   <Loot>
     <xp op="add">20</xp>

@@ -11,8 +11,10 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/infantry_crossbowman_b</SelectionGroupName>
     <SpecificName>Eastern Militia Crossbowman</SpecificName>
-    <Icon>units/east_infantry_crossbowman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/east/infantry_crossbowman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/east/infantry_crossbowman_a</Entity>

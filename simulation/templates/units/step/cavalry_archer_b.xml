@@ -21,7 +21,7 @@
     <Civ>step</Civ>
     <SelectionGroupName>units/step/cavalry_archer</SelectionGroupName>
     <GenericName>Steppe Mounted Archer</GenericName>
-    <Icon>units/step_cavalry_archer.png</Icon>
+    <Icon>units/step/cavalry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/step/cavalry_archer_a</Entity>

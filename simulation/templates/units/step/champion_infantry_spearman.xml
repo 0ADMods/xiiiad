@@ -3,8 +3,10 @@
   <Identity>
     <Civ>step</Civ>
     <SpecificName>Steppe Noble Spearman</SpecificName>
-    <Icon>units/step_champion_infantry_spearman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Icon>units/step/champion_infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/steppe/infantry_spearman_c.xml</Actor>

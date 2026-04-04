@@ -3,8 +3,10 @@
   <Identity>
     <Civ>east</Civ>
     <SpecificName>Eastern Noble Spearman</SpecificName>
-    <Icon>units/east_champion_infantry_spearman.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Icon>units/east/champion_infantry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/eastern/infantry_spearman_c.xml</Actor>

@@ -17,7 +17,7 @@
     <Civ>step</Civ>
     <SelectionGroupName>units/step/infantry_archer</SelectionGroupName>
     <GenericName>Steppe Archer</GenericName>
-    <Icon>units/step_infantry_archer.png</Icon>
+    <Icon>units/step/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/step/infantry_archer_a</Entity>

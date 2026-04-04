@@ -18,7 +18,7 @@
     <Civ>step</Civ>
     <Classes datatype="tokens">Wagon</Classes>
     <GenericName>Wagon</GenericName>
-    <Icon>units/step_support_wagon.png</Icon>
+    <Icon>units/step/support_wagon.png</Icon>
     <Tooltip>Mobile dropsite.</Tooltip>
     <Formations disable=""/>
   </Identity>
@@ -70,10 +70,10 @@
     <WalkSpeed>5.0</WalkSpeed>
   </UnitMotion>
   <Upgrade>
-    <UnPack>
+    <Unpack>
       <Entity>structures/step/storehouse</Entity>
       <Time>45</Time>
-    </UnPack>
+    </Unpack>
   </Upgrade>
   <Vision>
     <Range>50</Range>

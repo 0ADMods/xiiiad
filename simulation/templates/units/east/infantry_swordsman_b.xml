@@ -11,8 +11,10 @@
     <Civ>east</Civ>
     <SpecificName>Eastern Footman</SpecificName>
     <SelectionGroupName>units/east/infantry_swordsman_b</SelectionGroupName>
-    <Icon>units/east_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/east/infantry_swordsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/east/infantry_swordsman_a</Entity>

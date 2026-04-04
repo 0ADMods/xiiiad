@@ -3,9 +3,6 @@
   <BuildRestrictions>
     <Territory>own neutral</Territory>
   </BuildRestrictions>
-  <Population>
-    <Bonus>5</Bonus>
-  </Population>
   <Footprint replace="">
     <Circle radius="12.0"/>
     <Height>8.0</Height>
@@ -17,6 +14,9 @@
   <Obstruction>
     <Static width="20.0" depth="20.0"/>
   </Obstruction>
+  <Population>
+    <Bonus>5</Bonus>
+  </Population>
   <TerritoryDecay disable=""/>
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
@@ -29,7 +29,9 @@
     <BlacksmithPacked>
       <Entity>structures/step/forge_packed</Entity>
       <Time>45</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </BlacksmithPacked>
   </Upgrade>
   <VisualActor>

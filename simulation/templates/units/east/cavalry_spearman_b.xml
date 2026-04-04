@@ -4,8 +4,10 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Eastern Mounted Militia</SpecificName>
-    <Icon>units/east_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/east/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/east/cavalry_spearman_a</Entity>

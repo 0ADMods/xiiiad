@@ -15,7 +15,7 @@
     <Civ>west</Civ>
     <SpecificName>Western Mercenary Footman</SpecificName>
     <SelectionGroupName>units/west/infantry_axeman_merc_b</SelectionGroupName>
-    <Icon>units/west_infantry_axeman_mercenary.png</Icon>
+    <Icon>units/west/infantry_axeman_mercenary.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/west/infantry_axeman_merc_a</Entity>

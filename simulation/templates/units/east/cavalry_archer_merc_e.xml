@@ -4,10 +4,6 @@
     <Rank>Elite</Rank>
     <SpecificName>Steppe Mercenary Mounted Archer</SpecificName>
   </Identity>
-  <Identity>
-    <Rank>Elite</Rank>
-  </Identity>
-  <Promotion disable=""/>
   <VisualActor>
     <Actor>units/eastern/cavalry_archer_merc_e_m.xml</Actor>
   </VisualActor>

@@ -4,20 +4,22 @@
     <Civ>west</Civ>
     <SpecificName>Western Village Dwelling</SpecificName>
   </Identity>
-  <VisualActor>
-    <Actor>structures/western/house.xml</Actor>
-  </VisualActor>
   <Upgrade>
     <Apartment>
       <Entity>structures/{civ}/apartment</Entity>
       <Tooltip>Upgrade to Town Dwelling.</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
       <Cost>
         <wood>50</wood>
         <stone>100</stone>
       </Cost>
       <Variant>upgrading</Variant>
       <Time>100</Time>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
     </Apartment>
   </Upgrade>
+  <VisualActor>
+    <Actor>structures/western/house.xml</Actor>
+  </VisualActor>
 </Entity>

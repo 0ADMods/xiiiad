@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_resource_corral">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+  </BuildRestrictions>
   <Cost>
     <BuildTime op="mul">1.5</BuildTime>
     <Resources>
       <wood>250</wood>
     </Resources>
   </Cost>
-  <BuildRestrictions>
-    <Territory>own neutral</Territory>
-  </BuildRestrictions>
   <Footprint replace="">
     <Circle radius="15.0"/>
     <Height>8.0</Height>
@@ -28,18 +28,18 @@
     <Anchor>pitch</Anchor>
     <TurnRate>0.0001</TurnRate>
   </Position>
-  <ResourceTrickle>
-    <Rates>
-      <food>25.0</food>
-    </Rates>
-    <Interval>10000</Interval>
-  </ResourceTrickle>
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
       unlock_champion_cavalry
     </Technologies>
   </Researcher>
+  <ResourceTrickle>
+    <Rates>
+      <food>25.0</food>
+    </Rates>
+    <Interval>10000</Interval>
+  </ResourceTrickle>
   <TerritoryDecay disable=""/>
   <Trainer>
     <Entities datatype="tokens">
@@ -53,7 +53,9 @@
     <Pack>
       <Entity>structures/step/corral_packed</Entity>
       <Time>25</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Pack>
   </Upgrade>
   <VisualActor>

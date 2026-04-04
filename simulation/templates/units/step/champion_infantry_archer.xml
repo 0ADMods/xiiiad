@@ -2,7 +2,7 @@
 <Entity parent="template_unit_champion_infantry_archer">
   <Identity>
     <GenericName>Steppe Noble Archer</GenericName>
-    <Icon>units/step_champion_infantry_archer.png</Icon>
+    <Icon>units/step/champion_infantry_archer.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/steppe/infantry_archer_c.xml</Actor>

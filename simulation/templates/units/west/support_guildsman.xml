@@ -20,10 +20,8 @@
     </Melee>
   </Attack>
   <Auras datatype="tokens">
-    units/han_minister_garrison
     units/han_minister_gathering
     units/han_minister_building
-    units/han_minister_garrison_ministry
   </Auras>
   <Cost>
     <Population>2</Population>
@@ -43,8 +41,10 @@
     <Tooltip>Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue. Only Western buildings can garrison guildsmen.</Tooltip>
     <Classes datatype="tokens">Organic Human</Classes>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
-    <Icon>units/west_support_guildsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/west/support_guildsman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Minimap>
     <Type>hero</Type>

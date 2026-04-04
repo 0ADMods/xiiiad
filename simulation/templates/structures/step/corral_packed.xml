@@ -7,7 +7,7 @@
   <Identity>
     <Civ>step</Civ>
     <SpecificName>Steppe Corral Packed</SpecificName>
-    <Icon>units/step_house_packed.png</Icon>
+    <Icon>units/step/house_packed.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>
@@ -39,7 +39,9 @@
       <Entity>structures/step/corral_packed</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Pack>
   </Upgrade>
   <Vision>

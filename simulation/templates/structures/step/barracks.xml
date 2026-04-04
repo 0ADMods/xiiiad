@@ -19,7 +19,9 @@
   <Identity>
     <Civ>step</Civ>
     <GenericName>Steppe Barracks</GenericName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="24.0" depth="24.0"/>
@@ -33,7 +35,9 @@
     <BarracksPacked>
       <Entity>structures/step/barracks_packed</Entity>
       <Time>45</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </BarracksPacked>
   </Upgrade>
   <VisualActor>

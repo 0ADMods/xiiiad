@@ -10,7 +10,7 @@
   <Identity>
     <Civ>east</Civ>
     <SpecificName>Eastern Woman</SpecificName>
-    <Icon>units/west_support_female_citizen.png</Icon>
+    <Icon>units/east/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/eastern/female_citizen.xml</Actor>

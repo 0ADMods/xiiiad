@@ -21,7 +21,9 @@
     <Unpack>
       <Entity>structures/step/temple_packed</Entity>
       <Time>45</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Unpack>
   </Upgrade>
   <VisualActor>

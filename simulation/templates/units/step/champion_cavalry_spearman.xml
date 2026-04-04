@@ -3,7 +3,7 @@
   <Identity>
     <Civ>step</Civ>
     <SpecificName>Steppe Mounted Noble Spearman</SpecificName>
-    <Icon>units/step_champion_cavalry_spearman.png</Icon>
+    <Icon>units/step/champion_cavalry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/steppe/cavalry_spearman_c_m.xml</Actor>

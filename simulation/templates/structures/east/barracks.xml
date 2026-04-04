@@ -10,7 +10,9 @@
   <Identity>
     <Civ>east</Civ>
     <SpecificName>Eastern Town Barracks</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="20.0" depth="20.0"/>

@@ -11,7 +11,7 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/infantry_archer_merc_b</SelectionGroupName>
     <SpecificName>Steppe Mercenary Archer</SpecificName>
-    <Icon>units/east_infantry_archer_mercenary.png</Icon>
+    <Icon>units/east/infantry_archer_mercenary.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/infantry_archer_merc_a</Entity>

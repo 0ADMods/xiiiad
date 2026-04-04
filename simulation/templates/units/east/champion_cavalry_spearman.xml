@@ -3,7 +3,7 @@
   <Identity>
     <Civ>east</Civ>
     <SpecificName>Eastern Mounted Knight</SpecificName>
-    <Icon>units/east_champion_cavalry_spearman.png</Icon>
+    <Icon>units/east/champion_cavalry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/eastern/cavalry_spearman_c_m.xml</Actor>

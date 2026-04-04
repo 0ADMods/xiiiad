@@ -14,7 +14,7 @@
   <Identity>
     <Civ>west</Civ>
     <SpecificName>Western Woman</SpecificName>
-    <Icon>units/west_support_female_citizen.png</Icon>
+    <Icon>units/west/support_civilian.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/western/female_citizen.xml</Actor>

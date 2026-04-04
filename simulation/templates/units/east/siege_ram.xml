@@ -6,7 +6,7 @@
   <Identity>
     <Civ>east</Civ>
     <SpecificName>Eastern Siege Ram</SpecificName>
-    <Icon>units/mace_siege_ram.png</Icon>
+    <Icon>units/mace/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/eastern/siege_ram.xml</Actor>

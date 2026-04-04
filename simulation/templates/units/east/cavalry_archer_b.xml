@@ -4,7 +4,7 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/cavalry_archer_b</SelectionGroupName>
     <SpecificName>Eastern Mounted Archer</SpecificName>
-    <Icon>units/east_cavalry_archer.png</Icon>
+    <Icon>units/east/cavalry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/cavalry_archer_a</Entity>

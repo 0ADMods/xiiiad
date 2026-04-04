@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support">
+  <Capturable disable=""/>
   <Footprint replace="">
     <Square width="8" depth="14"/>
     <Height>6.0</Height>
@@ -7,9 +8,8 @@
   <Identity>
     <Civ>step</Civ>
     <SpecificName>Steppe Forge Packed</SpecificName>
-    <Icon>units/step_house_packed.png</Icon>
+    <Icon>units/step/house_packed.png</Icon>
   </Identity>
-  <Capturable disable=""/>
   <Position>
     <Anchor>pitch</Anchor>
     <TurnRate>2.0</TurnRate>
@@ -30,9 +30,6 @@
       <walk>actor/singlesteps/steps_grass.xml</walk>
     </SoundGroups>
   </Sound>
-<!--  <Vision>
-    <Range>0</Range>
-  </Vision>-->
   <UnitMotion>
     <FormationController>false</FormationController>
     <WalkSpeed>5.5</WalkSpeed>
@@ -42,11 +39,13 @@
     <BarracksUnpacked>
       <Entity>structures/step/forge_empty</Entity>
       <Time>25</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
       <CheckPlacementRestrictions/>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </BarracksUnpacked>
   </Upgrade>
   <VisualActor>
-    <Actor>structures/step/step_wagon_barracks.xml</Actor>
+    <Actor>structures/steppe/forge_packed.xml</Actor>
   </VisualActor>
 </Entity>

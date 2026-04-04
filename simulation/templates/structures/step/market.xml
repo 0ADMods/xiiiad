@@ -20,8 +20,10 @@
     <Civ>step</Civ>
     <GenericName>Steppe Market</GenericName>
     <VisibleClasses datatype="tokens">-Town Village Farmstead</VisibleClasses>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/farmstead.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
@@ -39,7 +41,9 @@
     <Pack>
       <Entity>structures/step/market_packed</Entity>
       <Time>25</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Pack>
   </Upgrade>
   <VisualActor>

@@ -4,7 +4,7 @@
     <Civ>west</Civ>
     <SelectionGroupName>units/west/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Western Mounted Serf</SpecificName>
-    <Icon>units/west_cavalry_spearman.png</Icon>
+    <Icon>units/west/cavalry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/west/cavalry_spearman_a</Entity>

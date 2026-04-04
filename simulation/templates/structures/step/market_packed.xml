@@ -7,7 +7,7 @@
   <Identity>
     <Civ>step</Civ>
     <SpecificName>Steppe Market Packed</SpecificName>
-    <Icon>units/step_house_packed.png</Icon>
+    <Icon>units/step/house_packed.png</Icon>
   </Identity>
   <Position>
     <Anchor>pitch</Anchor>
@@ -35,12 +35,14 @@
     <PassabilityClass>large</PassabilityClass>
   </UnitMotion>
   <Upgrade>
-    <UnPack>
+    <Unpack>
       <Entity>structures/step/market</Entity>
       <Time>45</Time>
-      <RequiredTechnology>nomadism</RequiredTechnology>
       <CheckPlacementRestrictions/>
-    </UnPack>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
+    </Unpack>
   </Upgrade>
   <Vision>
     <Range>1</Range>

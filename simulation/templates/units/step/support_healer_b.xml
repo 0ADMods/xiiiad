@@ -2,9 +2,9 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>step</Civ>
-    <GenericName></GenericName>
+    <GenericName/>
     <SpecificName>Steppe Tribal Elder</SpecificName>
-    <Icon>units/step_support_healer.png</Icon>
+    <Icon>units/step/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/step/support_healer_a</Entity>

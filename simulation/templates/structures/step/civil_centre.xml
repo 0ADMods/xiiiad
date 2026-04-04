@@ -41,7 +41,9 @@
       <Entity>structures/step/civil_centre_packed</Entity>
       <Time>45</Time>
       <CheckPlacementRestrictions/>
-      <RequiredTechnology>nomadism</RequiredTechnology>
+      <Requirements>
+        <Techs datatype="tokens">nomadism</Techs>
+      </Requirements>
     </Unpack>
   </Upgrade>
   <VisualActor>

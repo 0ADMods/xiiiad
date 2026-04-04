@@ -8,7 +8,7 @@
     <Civ>step</Civ>
     <SelectionGroupName>units/step/cavalry_spearman</SelectionGroupName>
     <GenericName>Steppe Horseman</GenericName>
-    <Icon>units/step_cavalry_spearman.png</Icon>
+    <Icon>units/step/cavalry_spearman.png</Icon>
     <Tooltip>Causes trample damage to enemy units.</Tooltip>
   </Identity>
   <Promotion>

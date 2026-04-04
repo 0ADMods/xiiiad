@@ -7,7 +7,7 @@
   <Identity>
     <Civ>east</Civ>
     <SpecificName>Eastern Trader</SpecificName>
-    <Icon>units/east_support_trader.png</Icon>
+    <Icon>units/east/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/eastern/trader.xml</Actor>

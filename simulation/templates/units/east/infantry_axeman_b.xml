@@ -11,7 +11,7 @@
     <Civ>east</Civ>
     <SpecificName>Eastern Infantry Axeman</SpecificName>
     <SelectionGroupName>units/east/infantry_axeman_b</SelectionGroupName>
-    <Icon>units/east_infantry_axeman.png</Icon>
+    <Icon>units/east/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/infantry_axeman_a</Entity>

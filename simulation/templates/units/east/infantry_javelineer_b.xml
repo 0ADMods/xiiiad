@@ -11,7 +11,7 @@
     <Civ>east</Civ>
     <SelectionGroupName>units/east/infantry_javelineer_b</SelectionGroupName>
     <SpecificName>Eastern Militia Skirmisher</SpecificName>
-    <Icon>units/east_infantry_javelinist.png</Icon>
+    <Icon>units/east/infantry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/infantry_javelineer_a</Entity>

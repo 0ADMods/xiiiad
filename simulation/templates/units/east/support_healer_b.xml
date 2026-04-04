@@ -2,9 +2,9 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>east</Civ>
-    <GenericName></GenericName>
+    <GenericName/>
     <SpecificName>Eastern Clergy</SpecificName>
-    <Icon>units/west_support_healer.png</Icon>
+    <Icon>units/west/support_healer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/east/support_healer_a</Entity>

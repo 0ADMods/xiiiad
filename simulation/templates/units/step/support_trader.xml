@@ -8,7 +8,7 @@
     <Civ>step</Civ>
     <SpecificName>Xiongnu Trader</SpecificName>
     <History>Xiongnu Trader.</History>
-    <Icon>units/hele_support_trader.png</Icon>
+    <Icon>units/hele/support_trader.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/carthaginians/trader.xml</Actor>

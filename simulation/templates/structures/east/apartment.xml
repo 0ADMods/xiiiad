@@ -25,7 +25,9 @@
     <Classes datatype="tokens">CivSpecific</Classes>
     <VisibleClasses datatype="tokens">-Village Town</VisibleClasses>
     <Icon>structures/apartment.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <wood op="add">10</wood>
@@ -34,10 +36,10 @@
   <Obstruction>
     <Static width="10.0" depth="10.0"/>
   </Obstruction>
-  <VisualActor>
-    <Actor>structures/eastern/house_town.xml</Actor>
-  </VisualActor>
   <TerritoryDecay>
     <DecayRate op="mul">2</DecayRate>
   </TerritoryDecay>
+  <VisualActor>
+    <Actor>structures/eastern/house_town.xml</Actor>
+  </VisualActor>
 </Entity>

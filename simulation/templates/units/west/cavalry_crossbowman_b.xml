@@ -4,8 +4,10 @@
     <Civ>west</Civ>
     <SelectionGroupName>units/west/cavalry_crossbowman_b</SelectionGroupName>
     <SpecificName>Western Mounted Serf Crossbowman</SpecificName>
-    <Icon>units/west_cavalry_crossbowman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/west/cavalry_crossbowman.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/west/cavalry_crossbowman_a</Entity>

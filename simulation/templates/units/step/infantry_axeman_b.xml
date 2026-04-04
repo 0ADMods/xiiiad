@@ -17,7 +17,7 @@
     <Civ>step</Civ>
     <SelectionGroupName>units/step/infantry_axeman</SelectionGroupName>
     <GenericName>Steppe Axeman</GenericName>
-    <Icon>units/step_infantry_axeman.png</Icon>
+    <Icon>units/step/infantry_axeman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/step/infantry_axeman_a</Entity>

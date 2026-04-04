@@ -10,8 +10,10 @@
   </Cost>
   <Identity>
     <SpecificName>Templar Sergeant Spearman</SpecificName>
-    <Icon>units/west_champion_infantry_spearman_templar.png</Icon>
-    <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
+    <Icon>units/west/champion_infantry_spearman_templar.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_infantry</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/templar/infantry_spearman_c.xml</Actor>
