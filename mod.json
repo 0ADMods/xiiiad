@@ -1,7 +1,7 @@
 {
 	"name": "xiiiad",
 	"label": "XXI Century AD",
-	"version": "0.26.1",
+	"version": "0.28.0",
 	"url": "https://github.com/0ADMods/xiiiad/",
 	"description": "A faction, based in the 12th-14th century.",
 	"dependencies": [
